@@ -1,0 +1,15 @@
+PUBLICATION DRAFT — NOT YET RELEASED
+
+QA environment: Linux Python runtime (original records note Python 3.13).
+
+All 106 original PhysioNet BIDMC v1.0.0 CSVs were locally extracted from the user-provided original input ZIP for offline test only. These original CSVs have been excluded from this distributable package.
+
+Session 2: 17 synthetic controls PASS, original 106-input provenance verification PASS.
+Session 3: 10 synthetic controls PASS; 7,950 total, 7,271 eligible.
+Session 4: 53 records; MAE 0.926271466, bias 0.261569063.
+Session 5: 11 synthetic controls PASS; 3,710 total, 3,503 eligible; MAE 0.715722128.
+Session 6: PASS, original Primary/Sensitivity output CSV hashes identical to deterministic replay (3 hashes). Original historical JSON evidence was restored after the test, because a new run changes environment/time/hash lineage metadata even when CSV results are unchanged.
+
+The independent Work audit has not been embedded in this minimal package. Its original code and evidence report remain in the separate private audit materials.
+
+Published results are unchanged. Additional checks before actual release: verify title/creator and license/affiliation, test fresh official-download path with internet enabled, check Zenodo preview/metadata/link/version, and confirm author approval.

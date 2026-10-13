@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific Zenodo DOI after release and cite the upstream BIDMC dataset."
+title: "BIDMC Respiratory-Rate Reference-Path Comparison: A Fixed-Window Technical Audit"
+type: dataset
+authors:
+  - family-names: Miyazaki
+    given-names: Sho
+    affiliation: "Independent researcher, Tokyo, Japan"
+version: 1.0.0
+keywords:
+  - respiratory rate
+  - BIDMC
+  - reference-path comparison
+  - reproducibility

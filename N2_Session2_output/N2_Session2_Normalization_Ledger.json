@@ -1,0 +1,2991 @@
+[
+  {
+    "record_id": "06",
+    "annotator": 1,
+    "raw_event_count": 161,
+    "normalized_event_count": 160,
+    "exact_duplicate_instances_removed": 1,
+    "raw_adjacent_order_inversions": 0,
+    "raw_rows_samples": [
+      {
+        "csv_line": 2,
+        "raw": "380",
+        "sample": 380
+      },
+      {
+        "csv_line": 3,
+        "raw": "741",
+        "sample": 741
+      },
+      {
+        "csv_line": 4,
+        "raw": "1133",
+        "sample": 1133
+      },
+      {
+        "csv_line": 5,
+        "raw": "1485",
+        "sample": 1485
+      },
+      {
+        "csv_line": 6,
+        "raw": "1893",
+        "sample": 1893
+      },
+      {
+        "csv_line": 7,
+        "raw": "2250",
+        "sample": 2250
+      },
+      {
+        "csv_line": 8,
+        "raw": "2624",
+        "sample": 2624
+      },
+      {
+        "csv_line": 9,
+        "raw": "3007",
+        "sample": 3007
+      },
+      {
+        "csv_line": 10,
+        "raw": "3380",
+        "sample": 3380
+      },
+      {
+        "csv_line": 11,
+        "raw": "3761",
+        "sample": 3761
+      },
+      {
+        "csv_line": 12,
+        "raw": "4126",
+        "sample": 4126
+      },
+      {
+        "csv_line": 13,
+        "raw": "4496",
+        "sample": 4496
+      },
+      {
+        "csv_line": 14,
+        "raw": "4865",
+        "sample": 4865
+      },
+      {
+        "csv_line": 15,
+        "raw": "5243",
+        "sample": 5243
+      },
+      {
+        "csv_line": 16,
+        "raw": "5630",
+        "sample": 5630
+      },
+      {
+        "csv_line": 17,
+        "raw": "6009",
+        "sample": 6009
+      },
+      {
+        "csv_line": 18,
+        "raw": "6383",
+        "sample": 6383
+      },
+      {
+        "csv_line": 19,
+        "raw": "6770",
+        "sample": 6770
+      },
+      {
+        "csv_line": 20,
+        "raw": "7130",
+        "sample": 7130
+      },
+      {
+        "csv_line": 21,
+        "raw": "7498",
+        "sample": 7498
+      },
+      {
+        "csv_line": 22,
+        "raw": "7889",
+        "sample": 7889
+      },
+      {
+        "csv_line": 23,
+        "raw": "8228",
+        "sample": 8228
+      },
+      {
+        "csv_line": 24,
+        "raw": "8611",
+        "sample": 8611
+      },
+      {
+        "csv_line": 25,
+        "raw": "8993",
+        "sample": 8993
+      },
+      {
+        "csv_line": 26,
+        "raw": "9367",
+        "sample": 9367
+      },
+      {
+        "csv_line": 27,
+        "raw": "9741",
+        "sample": 9741
+      },
+      {
+        "csv_line": 28,
+        "raw": "10111",
+        "sample": 10111
+      },
+      {
+        "csv_line": 29,
+        "raw": "10515",
+        "sample": 10515
+      },
+      {
+        "csv_line": 30,
+        "raw": "10841",
+        "sample": 10841
+      },
+      {
+        "csv_line": 31,
+        "raw": "11163",
+        "sample": 11163
+      },
+      {
+        "csv_line": 32,
+        "raw": "11613",
+        "sample": 11613
+      },
+      {
+        "csv_line": 33,
+        "raw": "11991",
+        "sample": 11991
+      },
+      {
+        "csv_line": 34,
+        "raw": "12339",
+        "sample": 12339
+      },
+      {
+        "csv_line": 35,
+        "raw": "12752",
+        "sample": 12752
+      },
+      {
+        "csv_line": 36,
+        "raw": "13135",
+        "sample": 13135
+      },
+      {
+        "csv_line": 37,
+        "raw": "13500",
+        "sample": 13500
+      },
+      {
+        "csv_line": 38,
+        "raw": "13865",
+        "sample": 13865
+      },
+      {
+        "csv_line": 39,
+        "raw": "14257",
+        "sample": 14257
+      },
+      {
+        "csv_line": 40,
+        "raw": "14622",
+        "sample": 14622
+      },
+      {
+        "csv_line": 41,
+        "raw": "15000",
+        "sample": 15000
+      },
+      {
+        "csv_line": 42,
+        "raw": "15376",
+        "sample": 15376
+      },
+      {
+        "csv_line": 43,
+        "raw": "15754",
+        "sample": 15754
+      },
+      {
+        "csv_line": 44,
+        "raw": "16115",
+        "sample": 16115
+      },
+      {
+        "csv_line": 45,
+        "raw": "16493",
+        "sample": 16493
+      },
+      {
+        "csv_line": 46,
+        "raw": "16867",
+        "sample": 16867
+      },
+      {
+        "csv_line": 47,
+        "raw": "17263",
+        "sample": 17263
+      },
+      {
+        "csv_line": 48,
+        "raw": "17611",
+        "sample": 17611
+      },
+      {
+        "csv_line": 49,
+        "raw": "17998",
+        "sample": 17998
+      },
+      {
+        "csv_line": 50,
+        "raw": "18359",
+        "sample": 18359
+      },
+      {
+        "csv_line": 51,
+        "raw": "18746",
+        "sample": 18746
+      },
+      {
+        "csv_line": 52,
+        "raw": "19104",
+        "sample": 19104
+      },
+      {
+        "csv_line": 53,
+        "raw": "19487",
+        "sample": 19487
+      },
+      {
+        "csv_line": 54,
+        "raw": "19874",
+        "sample": 19874
+      },
+      {
+        "csv_line": 55,
+        "raw": "20239",
+        "sample": 20239
+      },
+      {
+        "csv_line": 56,
+        "raw": "20630",
+        "sample": 20630
+      },
+      {
+        "csv_line": 57,
+        "raw": "20983",
+        "sample": 20983
+      },
+      {
+        "csv_line": 58,
+        "raw": "21378",
+        "sample": 21378
+      },
+      {
+        "csv_line": 59,
+        "raw": "21752",
+        "sample": 21752
+      },
+      {
+        "csv_line": 60,
+        "raw": "22117",
+        "sample": 22117
+      },
+      {
+        "csv_line": 61,
+        "raw": "22504",
+        "sample": 22504
+      },
+      {
+        "csv_line": 62,
+        "raw": "22863",
+        "sample": 22863
+      },
+      {
+        "csv_line": 63,
+        "raw": "23250",
+        "sample": 23250
+      },
+      {
+        "csv_line": 64,
+        "raw": "23620",
+        "sample": 23620
+      },
+      {
+        "csv_line": 65,
+        "raw": "23998",
+        "sample": 23998
+      },
+      {
+        "csv_line": 66,
+        "raw": "24363",
+        "sample": 24363
+      },
+      {
+        "csv_line": 67,
+        "raw": "24750",
+        "sample": 24750
+      },
+      {
+        "csv_line": 68,
+        "raw": "25128",
+        "sample": 25128
+      },
+      {
+        "csv_line": 69,
+        "raw": "25493",
+        "sample": 25493
+      },
+      {
+        "csv_line": 70,
+        "raw": "25876",
+        "sample": 25876
+      },
+      {
+        "csv_line": 71,
+        "raw": "26246",
+        "sample": 26246
+      },
+      {
+        "csv_line": 72,
+        "raw": "26613",
+        "sample": 26613
+      },
+      {
+        "csv_line": 73,
+        "raw": "26991",
+        "sample": 26991
+      },
+      {
+        "csv_line": 74,
+        "raw": "27383",
+        "sample": 27383
+      },
+      {
+        "csv_line": 75,
+        "raw": "27730",
+        "sample": 27730
+      },
+      {
+        "csv_line": 76,
+        "raw": "28126",
+        "sample": 28126
+      },
+      {
+        "csv_line": 77,
+        "raw": "28483",
+        "sample": 28483
+      },
+      {
+        "csv_line": 78,
+        "raw": "28883",
+        "sample": 28883
+      },
+      {
+        "csv_line": 79,
+        "raw": "29261",
+        "sample": 29261
+      },
+      {
+        "csv_line": 80,
+        "raw": "29604",
+        "sample": 29604
+      },
+      {
+        "csv_line": 81,
+        "raw": "30011",
+        "sample": 30011
+      },
+      {
+        "csv_line": 82,
+        "raw": "30376",
+        "sample": 30376
+      },
+      {
+        "csv_line": 83,
+        "raw": "30737",
+        "sample": 30737
+      },
+      {
+        "csv_line": 84,
+        "raw": "31115",
+        "sample": 31115
+      },
+      {
+        "csv_line": 85,
+        "raw": "31515",
+        "sample": 31515
+      },
+      {
+        "csv_line": 86,
+        "raw": "31846",
+        "sample": 31846
+      },
+      {
+        "csv_line": 87,
+        "raw": "32246",
+        "sample": 32246
+      },
+      {
+        "csv_line": 88,
+        "raw": "32624",
+        "sample": 32624
+      },
+      {
+        "csv_line": 89,
+        "raw": "32998",
+        "sample": 32998
+      },
+      {
+        "csv_line": 90,
+        "raw": "33372",
+        "sample": 33372
+      },
+      {
+        "csv_line": 91,
+        "raw": "33759",
+        "sample": 33759
+      },
+      {
+        "csv_line": 92,
+        "raw": "34117",
+        "sample": 34117
+      },
+      {
+        "csv_line": 93,
+        "raw": "34491",
+        "sample": 34491
+      },
+      {
+        "csv_line": 94,
+        "raw": "34878",
+        "sample": 34878
+      },
+      {
+        "csv_line": 95,
+        "raw": "35252",
+        "sample": 35252
+      },
+      {
+        "csv_line": 96,
+        "raw": "35626",
+        "sample": 35626
+      },
+      {
+        "csv_line": 97,
+        "raw": "36000",
+        "sample": 36000
+      },
+      {
+        "csv_line": 98,
+        "raw": "36374",
+        "sample": 36374
+      },
+      {
+        "csv_line": 99,
+        "raw": "36739",
+        "sample": 36739
+      },
+      {
+        "csv_line": 100,
+        "raw": "37104",
+        "sample": 37104
+      },
+      {
+        "csv_line": 101,
+        "raw": "37504",
+        "sample": 37504
+      },
+      {
+        "csv_line": 102,
+        "raw": "37854",
+        "sample": 37854
+      },
+      {
+        "csv_line": 103,
+        "raw": "38237",
+        "sample": 38237
+      },
+      {
+        "csv_line": 104,
+        "raw": "38628",
+        "sample": 38628
+      },
+      {
+        "csv_line": 105,
+        "raw": "38989",
+        "sample": 38989
+      },
+      {
+        "csv_line": 106,
+        "raw": "39363",
+        "sample": 39363
+      },
+      {
+        "csv_line": 107,
+        "raw": "39746",
+        "sample": 39746
+      },
+      {
+        "csv_line": 108,
+        "raw": "40115",
+        "sample": 40115
+      },
+      {
+        "csv_line": 109,
+        "raw": "40493",
+        "sample": 40493
+      },
+      {
+        "csv_line": 110,
+        "raw": "40867",
+        "sample": 40867
+      },
+      {
+        "csv_line": 111,
+        "raw": "41259",
+        "sample": 41259
+      },
+      {
+        "csv_line": 112,
+        "raw": "41617",
+        "sample": 41617
+      },
+      {
+        "csv_line": 113,
+        "raw": "41996",
+        "sample": 41996
+      },
+      {
+        "csv_line": 114,
+        "raw": "42357",
+        "sample": 42357
+      },
+      {
+        "csv_line": 115,
+        "raw": "42761",
+        "sample": 42761
+      },
+      {
+        "csv_line": 116,
+        "raw": "43130",
+        "sample": 43130
+      },
+      {
+        "csv_line": 117,
+        "raw": "43509",
+        "sample": 43509
+      },
+      {
+        "csv_line": 118,
+        "raw": "43887",
+        "sample": 43887
+      },
+      {
+        "csv_line": 119,
+        "raw": "44248",
+        "sample": 44248
+      },
+      {
+        "csv_line": 120,
+        "raw": "44609",
+        "sample": 44609
+      },
+      {
+        "csv_line": 121,
+        "raw": "45000",
+        "sample": 45000
+      },
+      {
+        "csv_line": 122,
+        "raw": "45376",
+        "sample": 45376
+      },
+      {
+        "csv_line": 123,
+        "raw": "45733",
+        "sample": 45733
+      },
+      {
+        "csv_line": 124,
+        "raw": "46120",
+        "sample": 46120
+      },
+      {
+        "csv_line": 125,
+        "raw": "46480",
+        "sample": 46480
+      },
+      {
+        "csv_line": 126,
+        "raw": "46841",
+        "sample": 46841
+      },
+      {
+        "csv_line": 127,
+        "raw": "47254",
+        "sample": 47254
+      },
+      {
+        "csv_line": 128,
+        "raw": "47615",
+        "sample": 47615
+      },
+      {
+        "csv_line": 129,
+        "raw": "47976",
+        "sample": 47976
+      },
+      {
+        "csv_line": 130,
+        "raw": "48367",
+        "sample": 48367
+      },
+      {
+        "csv_line": 131,
+        "raw": "48746",
+        "sample": 48746
+      },
+      {
+        "csv_line": 132,
+        "raw": "49087",
+        "sample": 49087
+      },
+      {
+        "csv_line": 133,
+        "raw": "49087",
+        "sample": 49087
+      },
+      {
+        "csv_line": 134,
+        "raw": "49509",
+        "sample": 49509
+      },
+      {
+        "csv_line": 135,
+        "raw": "49883",
+        "sample": 49883
+      },
+      {
+        "csv_line": 136,
+        "raw": "50230",
+        "sample": 50230
+      },
+      {
+        "csv_line": 137,
+        "raw": "50596",
+        "sample": 50596
+      },
+      {
+        "csv_line": 138,
+        "raw": "50996",
+        "sample": 50996
+      },
+      {
+        "csv_line": 139,
+        "raw": "51374",
+        "sample": 51374
+      },
+      {
+        "csv_line": 140,
+        "raw": "51743",
+        "sample": 51743
+      },
+      {
+        "csv_line": 141,
+        "raw": "52122",
+        "sample": 52122
+      },
+      {
+        "csv_line": 142,
+        "raw": "52487",
+        "sample": 52487
+      },
+      {
+        "csv_line": 143,
+        "raw": "52846",
+        "sample": 52846
+      },
+      {
+        "csv_line": 144,
+        "raw": "53237",
+        "sample": 53237
+      },
+      {
+        "csv_line": 145,
+        "raw": "53620",
+        "sample": 53620
+      },
+      {
+        "csv_line": 146,
+        "raw": "53998",
+        "sample": 53998
+      },
+      {
+        "csv_line": 147,
+        "raw": "54376",
+        "sample": 54376
+      },
+      {
+        "csv_line": 148,
+        "raw": "54746",
+        "sample": 54746
+      },
+      {
+        "csv_line": 149,
+        "raw": "55115",
+        "sample": 55115
+      },
+      {
+        "csv_line": 150,
+        "raw": "55498",
+        "sample": 55498
+      },
+      {
+        "csv_line": 151,
+        "raw": "55885",
+        "sample": 55885
+      },
+      {
+        "csv_line": 152,
+        "raw": "56241",
+        "sample": 56241
+      },
+      {
+        "csv_line": 153,
+        "raw": "56613",
+        "sample": 56613
+      },
+      {
+        "csv_line": 154,
+        "raw": "56983",
+        "sample": 56983
+      },
+      {
+        "csv_line": 155,
+        "raw": "57370",
+        "sample": 57370
+      },
+      {
+        "csv_line": 156,
+        "raw": "57739",
+        "sample": 57739
+      },
+      {
+        "csv_line": 157,
+        "raw": "58117",
+        "sample": 58117
+      },
+      {
+        "csv_line": 158,
+        "raw": "58491",
+        "sample": 58491
+      },
+      {
+        "csv_line": 159,
+        "raw": "58874",
+        "sample": 58874
+      },
+      {
+        "csv_line": 160,
+        "raw": "59257",
+        "sample": 59257
+      },
+      {
+        "csv_line": 161,
+        "raw": "59609",
+        "sample": 59609
+      },
+      {
+        "csv_line": 162,
+        "raw": "59996",
+        "sample": 59996
+      }
+    ],
+    "operations": [
+      "collapse_identical_sample"
+    ],
+    "implicated_samples": [
+      49087
+    ],
+    "potentially_affected_primary_window_k": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "potentially_affected_primary_window_count": 10,
+    "affected_windows_interpretation": "potential membership, not actual usable RR changes"
+  },
+  {
+    "record_id": "09",
+    "annotator": 2,
+    "raw_event_count": 161,
+    "normalized_event_count": 161,
+    "exact_duplicate_instances_removed": 0,
+    "raw_adjacent_order_inversions": 1,
+    "raw_rows_samples": [
+      {
+        "csv_line": 2,
+        "raw": "325",
+        "sample": 325
+      },
+      {
+        "csv_line": 3,
+        "raw": "694",
+        "sample": 694
+      },
+      {
+        "csv_line": 4,
+        "raw": "1074",
+        "sample": 1074
+      },
+      {
+        "csv_line": 5,
+        "raw": "1443",
+        "sample": 1443
+      },
+      {
+        "csv_line": 6,
+        "raw": "1823",
+        "sample": 1823
+      },
+      {
+        "csv_line": 7,
+        "raw": "2198",
+        "sample": 2198
+      },
+      {
+        "csv_line": 8,
+        "raw": "2567",
+        "sample": 2567
+      },
+      {
+        "csv_line": 9,
+        "raw": "2947",
+        "sample": 2947
+      },
+      {
+        "csv_line": 10,
+        "raw": "3317",
+        "sample": 3317
+      },
+      {
+        "csv_line": 11,
+        "raw": "3702",
+        "sample": 3702
+      },
+      {
+        "csv_line": 12,
+        "raw": "4075",
+        "sample": 4075
+      },
+      {
+        "csv_line": 13,
+        "raw": "4449",
+        "sample": 4449
+      },
+      {
+        "csv_line": 14,
+        "raw": "4819",
+        "sample": 4819
+      },
+      {
+        "csv_line": 15,
+        "raw": "5188",
+        "sample": 5188
+      },
+      {
+        "csv_line": 16,
+        "raw": "5568",
+        "sample": 5568
+      },
+      {
+        "csv_line": 17,
+        "raw": "5948",
+        "sample": 5948
+      },
+      {
+        "csv_line": 18,
+        "raw": "6323",
+        "sample": 6323
+      },
+      {
+        "csv_line": 19,
+        "raw": "6703",
+        "sample": 6703
+      },
+      {
+        "csv_line": 20,
+        "raw": "7072",
+        "sample": 7072
+      },
+      {
+        "csv_line": 21,
+        "raw": "7447",
+        "sample": 7447
+      },
+      {
+        "csv_line": 22,
+        "raw": "7819",
+        "sample": 7819
+      },
+      {
+        "csv_line": 23,
+        "raw": "8199",
+        "sample": 8199
+      },
+      {
+        "csv_line": 24,
+        "raw": "8563",
+        "sample": 8563
+      },
+      {
+        "csv_line": 25,
+        "raw": "8949",
+        "sample": 8949
+      },
+      {
+        "csv_line": 26,
+        "raw": "9323",
+        "sample": 9323
+      },
+      {
+        "csv_line": 27,
+        "raw": "9703",
+        "sample": 9703
+      },
+      {
+        "csv_line": 28,
+        "raw": "10073",
+        "sample": 10073
+      },
+      {
+        "csv_line": 29,
+        "raw": "10447",
+        "sample": 10447
+      },
+      {
+        "csv_line": 30,
+        "raw": "10822",
+        "sample": 10822
+      },
+      {
+        "csv_line": 31,
+        "raw": "11191",
+        "sample": 11191
+      },
+      {
+        "csv_line": 32,
+        "raw": "11569",
+        "sample": 11569
+      },
+      {
+        "csv_line": 33,
+        "raw": "11954",
+        "sample": 11954
+      },
+      {
+        "csv_line": 34,
+        "raw": "12329",
+        "sample": 12329
+      },
+      {
+        "csv_line": 35,
+        "raw": "12693",
+        "sample": 12693
+      },
+      {
+        "csv_line": 36,
+        "raw": "13073",
+        "sample": 13073
+      },
+      {
+        "csv_line": 37,
+        "raw": "13443",
+        "sample": 13443
+      },
+      {
+        "csv_line": 38,
+        "raw": "13817",
+        "sample": 13817
+      },
+      {
+        "csv_line": 39,
+        "raw": "14197",
+        "sample": 14197
+      },
+      {
+        "csv_line": 40,
+        "raw": "14577",
+        "sample": 14577
+      },
+      {
+        "csv_line": 41,
+        "raw": "14947",
+        "sample": 14947
+      },
+      {
+        "csv_line": 42,
+        "raw": "15319",
+        "sample": 15319
+      },
+      {
+        "csv_line": 43,
+        "raw": "15694",
+        "sample": 15694
+      },
+      {
+        "csv_line": 44,
+        "raw": "16063",
+        "sample": 16063
+      },
+      {
+        "csv_line": 45,
+        "raw": "16443",
+        "sample": 16443
+      },
+      {
+        "csv_line": 46,
+        "raw": "16828",
+        "sample": 16828
+      },
+      {
+        "csv_line": 47,
+        "raw": "17193",
+        "sample": 17193
+      },
+      {
+        "csv_line": 48,
+        "raw": "17573",
+        "sample": 17573
+      },
+      {
+        "csv_line": 49,
+        "raw": "17947",
+        "sample": 17947
+      },
+      {
+        "csv_line": 50,
+        "raw": "18317",
+        "sample": 18317
+      },
+      {
+        "csv_line": 51,
+        "raw": "18691",
+        "sample": 18691
+      },
+      {
+        "csv_line": 52,
+        "raw": "19075",
+        "sample": 19075
+      },
+      {
+        "csv_line": 53,
+        "raw": "19454",
+        "sample": 19454
+      },
+      {
+        "csv_line": 54,
+        "raw": "19819",
+        "sample": 19819
+      },
+      {
+        "csv_line": 55,
+        "raw": "20199",
+        "sample": 20199
+      },
+      {
+        "csv_line": 56,
+        "raw": "20563",
+        "sample": 20563
+      },
+      {
+        "csv_line": 57,
+        "raw": "20937",
+        "sample": 20937
+      },
+      {
+        "csv_line": 58,
+        "raw": "21323",
+        "sample": 21323
+      },
+      {
+        "csv_line": 59,
+        "raw": "21697",
+        "sample": 21697
+      },
+      {
+        "csv_line": 60,
+        "raw": "22072",
+        "sample": 22072
+      },
+      {
+        "csv_line": 61,
+        "raw": "22447",
+        "sample": 22447
+      },
+      {
+        "csv_line": 62,
+        "raw": "22814",
+        "sample": 22814
+      },
+      {
+        "csv_line": 63,
+        "raw": "23189",
+        "sample": 23189
+      },
+      {
+        "csv_line": 64,
+        "raw": "23574",
+        "sample": 23574
+      },
+      {
+        "csv_line": 65,
+        "raw": "23949",
+        "sample": 23949
+      },
+      {
+        "csv_line": 66,
+        "raw": "24323",
+        "sample": 24323
+      },
+      {
+        "csv_line": 67,
+        "raw": "24693",
+        "sample": 24693
+      },
+      {
+        "csv_line": 68,
+        "raw": "25062",
+        "sample": 25062
+      },
+      {
+        "csv_line": 69,
+        "raw": "25442",
+        "sample": 25442
+      },
+      {
+        "csv_line": 70,
+        "raw": "25822",
+        "sample": 25822
+      },
+      {
+        "csv_line": 71,
+        "raw": "26191",
+        "sample": 26191
+      },
+      {
+        "csv_line": 72,
+        "raw": "26564",
+        "sample": 26564
+      },
+      {
+        "csv_line": 73,
+        "raw": "26939",
+        "sample": 26939
+      },
+      {
+        "csv_line": 74,
+        "raw": "27319",
+        "sample": 27319
+      },
+      {
+        "csv_line": 75,
+        "raw": "27693",
+        "sample": 27693
+      },
+      {
+        "csv_line": 76,
+        "raw": "28063",
+        "sample": 28063
+      },
+      {
+        "csv_line": 77,
+        "raw": "28443",
+        "sample": 28443
+      },
+      {
+        "csv_line": 78,
+        "raw": "28812",
+        "sample": 28812
+      },
+      {
+        "csv_line": 79,
+        "raw": "29192",
+        "sample": 29192
+      },
+      {
+        "csv_line": 80,
+        "raw": "29572",
+        "sample": 29572
+      },
+      {
+        "csv_line": 81,
+        "raw": "29941",
+        "sample": 29941
+      },
+      {
+        "csv_line": 82,
+        "raw": "30314",
+        "sample": 30314
+      },
+      {
+        "csv_line": 83,
+        "raw": "30683",
+        "sample": 30683
+      },
+      {
+        "csv_line": 84,
+        "raw": "31069",
+        "sample": 31069
+      },
+      {
+        "csv_line": 85,
+        "raw": "31433",
+        "sample": 31433
+      },
+      {
+        "csv_line": 86,
+        "raw": "31823",
+        "sample": 31823
+      },
+      {
+        "csv_line": 87,
+        "raw": "32203",
+        "sample": 32203
+      },
+      {
+        "csv_line": 88,
+        "raw": "32567",
+        "sample": 32567
+      },
+      {
+        "csv_line": 89,
+        "raw": "32947",
+        "sample": 32947
+      },
+      {
+        "csv_line": 90,
+        "raw": "33317",
+        "sample": 33317
+      },
+      {
+        "csv_line": 91,
+        "raw": "33686",
+        "sample": 33686
+      },
+      {
+        "csv_line": 92,
+        "raw": "34069",
+        "sample": 34069
+      },
+      {
+        "csv_line": 93,
+        "raw": "34439",
+        "sample": 34439
+      },
+      {
+        "csv_line": 94,
+        "raw": "34808",
+        "sample": 34808
+      },
+      {
+        "csv_line": 95,
+        "raw": "35188",
+        "sample": 35188
+      },
+      {
+        "csv_line": 96,
+        "raw": "35568",
+        "sample": 35568
+      },
+      {
+        "csv_line": 97,
+        "raw": "35943",
+        "sample": 35943
+      },
+      {
+        "csv_line": 98,
+        "raw": "36323",
+        "sample": 36323
+      },
+      {
+        "csv_line": 99,
+        "raw": "36681",
+        "sample": 36681
+      },
+      {
+        "csv_line": 100,
+        "raw": "37067",
+        "sample": 37067
+      },
+      {
+        "csv_line": 101,
+        "raw": "37447",
+        "sample": 37447
+      },
+      {
+        "csv_line": 102,
+        "raw": "37819",
+        "sample": 37819
+      },
+      {
+        "csv_line": 103,
+        "raw": "38194",
+        "sample": 38194
+      },
+      {
+        "csv_line": 104,
+        "raw": "38563",
+        "sample": 38563
+      },
+      {
+        "csv_line": 105,
+        "raw": "38933",
+        "sample": 38933
+      },
+      {
+        "csv_line": 106,
+        "raw": "39323",
+        "sample": 39323
+      },
+      {
+        "csv_line": 107,
+        "raw": "39698",
+        "sample": 39698
+      },
+      {
+        "csv_line": 108,
+        "raw": "40062",
+        "sample": 40062
+      },
+      {
+        "csv_line": 109,
+        "raw": "40442",
+        "sample": 40442
+      },
+      {
+        "csv_line": 110,
+        "raw": "40811",
+        "sample": 40811
+      },
+      {
+        "csv_line": 111,
+        "raw": "41197",
+        "sample": 41197
+      },
+      {
+        "csv_line": 112,
+        "raw": "41569",
+        "sample": 41569
+      },
+      {
+        "csv_line": 113,
+        "raw": "41939",
+        "sample": 41939
+      },
+      {
+        "csv_line": 114,
+        "raw": "42319",
+        "sample": 42319
+      },
+      {
+        "csv_line": 115,
+        "raw": "42688",
+        "sample": 42688
+      },
+      {
+        "csv_line": 116,
+        "raw": "43057",
+        "sample": 43057
+      },
+      {
+        "csv_line": 117,
+        "raw": "43427",
+        "sample": 43427
+      },
+      {
+        "csv_line": 118,
+        "raw": "43812",
+        "sample": 43812
+      },
+      {
+        "csv_line": 119,
+        "raw": "44197",
+        "sample": 44197
+      },
+      {
+        "csv_line": 120,
+        "raw": "44567",
+        "sample": 44567
+      },
+      {
+        "csv_line": 121,
+        "raw": "44947",
+        "sample": 44947
+      },
+      {
+        "csv_line": 122,
+        "raw": "44340",
+        "sample": 44340
+      },
+      {
+        "csv_line": 123,
+        "raw": "45309",
+        "sample": 45309
+      },
+      {
+        "csv_line": 124,
+        "raw": "45689",
+        "sample": 45689
+      },
+      {
+        "csv_line": 125,
+        "raw": "46069",
+        "sample": 46069
+      },
+      {
+        "csv_line": 126,
+        "raw": "46443",
+        "sample": 46443
+      },
+      {
+        "csv_line": 127,
+        "raw": "46818",
+        "sample": 46818
+      },
+      {
+        "csv_line": 128,
+        "raw": "47187",
+        "sample": 47187
+      },
+      {
+        "csv_line": 129,
+        "raw": "47562",
+        "sample": 47562
+      },
+      {
+        "csv_line": 130,
+        "raw": "47942",
+        "sample": 47942
+      },
+      {
+        "csv_line": 131,
+        "raw": "48327",
+        "sample": 48327
+      },
+      {
+        "csv_line": 132,
+        "raw": "48697",
+        "sample": 48697
+      },
+      {
+        "csv_line": 133,
+        "raw": "49064",
+        "sample": 49064
+      },
+      {
+        "csv_line": 134,
+        "raw": "49444",
+        "sample": 49444
+      },
+      {
+        "csv_line": 135,
+        "raw": "49808",
+        "sample": 49808
+      },
+      {
+        "csv_line": 136,
+        "raw": "50188",
+        "sample": 50188
+      },
+      {
+        "csv_line": 137,
+        "raw": "50573",
+        "sample": 50573
+      },
+      {
+        "csv_line": 138,
+        "raw": "50937",
+        "sample": 50937
+      },
+      {
+        "csv_line": 139,
+        "raw": "51317",
+        "sample": 51317
+      },
+      {
+        "csv_line": 140,
+        "raw": "51692",
+        "sample": 51692
+      },
+      {
+        "csv_line": 141,
+        "raw": "52061",
+        "sample": 52061
+      },
+      {
+        "csv_line": 142,
+        "raw": "52441",
+        "sample": 52441
+      },
+      {
+        "csv_line": 143,
+        "raw": "52819",
+        "sample": 52819
+      },
+      {
+        "csv_line": 144,
+        "raw": "53189",
+        "sample": 53189
+      },
+      {
+        "csv_line": 145,
+        "raw": "53569",
+        "sample": 53569
+      },
+      {
+        "csv_line": 146,
+        "raw": "53943",
+        "sample": 53943
+      },
+      {
+        "csv_line": 147,
+        "raw": "54307",
+        "sample": 54307
+      },
+      {
+        "csv_line": 148,
+        "raw": "54693",
+        "sample": 54693
+      },
+      {
+        "csv_line": 149,
+        "raw": "55073",
+        "sample": 55073
+      },
+      {
+        "csv_line": 150,
+        "raw": "55442",
+        "sample": 55442
+      },
+      {
+        "csv_line": 151,
+        "raw": "55817",
+        "sample": 55817
+      },
+      {
+        "csv_line": 152,
+        "raw": "56191",
+        "sample": 56191
+      },
+      {
+        "csv_line": 153,
+        "raw": "56559",
+        "sample": 56559
+      },
+      {
+        "csv_line": 154,
+        "raw": "56939",
+        "sample": 56939
+      },
+      {
+        "csv_line": 155,
+        "raw": "57313",
+        "sample": 57313
+      },
+      {
+        "csv_line": 156,
+        "raw": "57693",
+        "sample": 57693
+      },
+      {
+        "csv_line": 157,
+        "raw": "58068",
+        "sample": 58068
+      },
+      {
+        "csv_line": 158,
+        "raw": "58437",
+        "sample": 58437
+      },
+      {
+        "csv_line": 159,
+        "raw": "58817",
+        "sample": 58817
+      },
+      {
+        "csv_line": 160,
+        "raw": "59197",
+        "sample": 59197
+      },
+      {
+        "csv_line": 161,
+        "raw": "59567",
+        "sample": 59567
+      },
+      {
+        "csv_line": 162,
+        "raw": "59936",
+        "sample": 59936
+      }
+    ],
+    "operations": [
+      "sort_by_sample"
+    ],
+    "implicated_samples": [
+      44340,
+      44947
+    ],
+    "potentially_affected_primary_window_k": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "potentially_affected_primary_window_count": 12,
+    "affected_windows_interpretation": "potential membership, not actual usable RR changes"
+  },
+  {
+    "record_id": "19",
+    "annotator": 2,
+    "raw_event_count": 128,
+    "normalized_event_count": 128,
+    "exact_duplicate_instances_removed": 0,
+    "raw_adjacent_order_inversions": 1,
+    "raw_rows_samples": [
+      {
+        "csv_line": 2,
+        "raw": "309",
+        "sample": 309
+      },
+      {
+        "csv_line": 3,
+        "raw": "773",
+        "sample": 773
+      },
+      {
+        "csv_line": 4,
+        "raw": "1227",
+        "sample": 1227
+      },
+      {
+        "csv_line": 5,
+        "raw": "1707",
+        "sample": 1707
+      },
+      {
+        "csv_line": 6,
+        "raw": "2150",
+        "sample": 2150
+      },
+      {
+        "csv_line": 7,
+        "raw": "2641",
+        "sample": 2641
+      },
+      {
+        "csv_line": 8,
+        "raw": "3116",
+        "sample": 3116
+      },
+      {
+        "csv_line": 9,
+        "raw": "3591",
+        "sample": 3591
+      },
+      {
+        "csv_line": 10,
+        "raw": "3948",
+        "sample": 3948
+      },
+      {
+        "csv_line": 11,
+        "raw": "4423",
+        "sample": 4423
+      },
+      {
+        "csv_line": 12,
+        "raw": "4871",
+        "sample": 4871
+      },
+      {
+        "csv_line": 13,
+        "raw": "5816",
+        "sample": 5816
+      },
+      {
+        "csv_line": 14,
+        "raw": "6243",
+        "sample": 6243
+      },
+      {
+        "csv_line": 15,
+        "raw": "6951",
+        "sample": 6951
+      },
+      {
+        "csv_line": 16,
+        "raw": "7156",
+        "sample": 7156
+      },
+      {
+        "csv_line": 17,
+        "raw": "7656",
+        "sample": 7656
+      },
+      {
+        "csv_line": 18,
+        "raw": "8136",
+        "sample": 8136
+      },
+      {
+        "csv_line": 19,
+        "raw": "8590",
+        "sample": 8590
+      },
+      {
+        "csv_line": 20,
+        "raw": "9524",
+        "sample": 9524
+      },
+      {
+        "csv_line": 21,
+        "raw": "10009",
+        "sample": 10009
+      },
+      {
+        "csv_line": 22,
+        "raw": "10453",
+        "sample": 10453
+      },
+      {
+        "csv_line": 23,
+        "raw": "10943",
+        "sample": 10943
+      },
+      {
+        "csv_line": 24,
+        "raw": "11400",
+        "sample": 11400
+      },
+      {
+        "csv_line": 25,
+        "raw": "11875",
+        "sample": 11875
+      },
+      {
+        "csv_line": 26,
+        "raw": "12324",
+        "sample": 12324
+      },
+      {
+        "csv_line": 27,
+        "raw": "12815",
+        "sample": 12815
+      },
+      {
+        "csv_line": 28,
+        "raw": "13268",
+        "sample": 13268
+      },
+      {
+        "csv_line": 29,
+        "raw": "13754",
+        "sample": 13754
+      },
+      {
+        "csv_line": 30,
+        "raw": "14203",
+        "sample": 14203
+      },
+      {
+        "csv_line": 31,
+        "raw": "14688",
+        "sample": 14688
+      },
+      {
+        "csv_line": 32,
+        "raw": "15166",
+        "sample": 15166
+      },
+      {
+        "csv_line": 33,
+        "raw": "15599",
+        "sample": 15599
+      },
+      {
+        "csv_line": 34,
+        "raw": "16111",
+        "sample": 16111
+      },
+      {
+        "csv_line": 35,
+        "raw": "16554",
+        "sample": 16554
+      },
+      {
+        "csv_line": 36,
+        "raw": "16997",
+        "sample": 16997
+      },
+      {
+        "csv_line": 37,
+        "raw": "17778",
+        "sample": 17778
+      },
+      {
+        "csv_line": 38,
+        "raw": "18259",
+        "sample": 18259
+      },
+      {
+        "csv_line": 39,
+        "raw": "18691",
+        "sample": 18691
+      },
+      {
+        "csv_line": 40,
+        "raw": "19159",
+        "sample": 19159
+      },
+      {
+        "csv_line": 41,
+        "raw": "19644",
+        "sample": 19644
+      },
+      {
+        "csv_line": 42,
+        "raw": "20088",
+        "sample": 20088
+      },
+      {
+        "csv_line": 43,
+        "raw": "20573",
+        "sample": 20573
+      },
+      {
+        "csv_line": 44,
+        "raw": "21006",
+        "sample": 21006
+      },
+      {
+        "csv_line": 45,
+        "raw": "21507",
+        "sample": 21507
+      },
+      {
+        "csv_line": 46,
+        "raw": "21993",
+        "sample": 21993
+      },
+      {
+        "csv_line": 47,
+        "raw": "22457",
+        "sample": 22457
+      },
+      {
+        "csv_line": 48,
+        "raw": "22693",
+        "sample": 22693
+      },
+      {
+        "csv_line": 49,
+        "raw": "23379",
+        "sample": 23379
+      },
+      {
+        "csv_line": 50,
+        "raw": "23843",
+        "sample": 23843
+      },
+      {
+        "csv_line": 51,
+        "raw": "24313",
+        "sample": 24313
+      },
+      {
+        "csv_line": 52,
+        "raw": "24756",
+        "sample": 24756
+      },
+      {
+        "csv_line": 53,
+        "raw": "25252",
+        "sample": 25252
+      },
+      {
+        "csv_line": 54,
+        "raw": "25722",
+        "sample": 25722
+      },
+      {
+        "csv_line": 55,
+        "raw": "26186",
+        "sample": 26186
+      },
+      {
+        "csv_line": 56,
+        "raw": "26659",
+        "sample": 26659
+      },
+      {
+        "csv_line": 57,
+        "raw": "27113",
+        "sample": 27113
+      },
+      {
+        "csv_line": 58,
+        "raw": "27604",
+        "sample": 27604
+      },
+      {
+        "csv_line": 59,
+        "raw": "27825",
+        "sample": 27825
+      },
+      {
+        "csv_line": 60,
+        "raw": "28538",
+        "sample": 28538
+      },
+      {
+        "csv_line": 61,
+        "raw": "28997",
+        "sample": 28997
+      },
+      {
+        "csv_line": 62,
+        "raw": "29477",
+        "sample": 29477
+      },
+      {
+        "csv_line": 63,
+        "raw": "28042",
+        "sample": 28042
+      },
+      {
+        "csv_line": 64,
+        "raw": "29910",
+        "sample": 29910
+      },
+      {
+        "csv_line": 65,
+        "raw": "30404",
+        "sample": 30404
+      },
+      {
+        "csv_line": 66,
+        "raw": "30879",
+        "sample": 30879
+      },
+      {
+        "csv_line": 67,
+        "raw": "31348",
+        "sample": 31348
+      },
+      {
+        "csv_line": 68,
+        "raw": "31818",
+        "sample": 31818
+      },
+      {
+        "csv_line": 69,
+        "raw": "32277",
+        "sample": 32277
+      },
+      {
+        "csv_line": 70,
+        "raw": "32694",
+        "sample": 32694
+      },
+      {
+        "csv_line": 71,
+        "raw": "33000",
+        "sample": 33000
+      },
+      {
+        "csv_line": 72,
+        "raw": "33644",
+        "sample": 33644
+      },
+      {
+        "csv_line": 73,
+        "raw": "33995",
+        "sample": 33995
+      },
+      {
+        "csv_line": 74,
+        "raw": "34497",
+        "sample": 34497
+      },
+      {
+        "csv_line": 75,
+        "raw": "34940",
+        "sample": 34940
+      },
+      {
+        "csv_line": 76,
+        "raw": "35230",
+        "sample": 35230
+      },
+      {
+        "csv_line": 77,
+        "raw": "35552",
+        "sample": 35552
+      },
+      {
+        "csv_line": 78,
+        "raw": "36001",
+        "sample": 36001
+      },
+      {
+        "csv_line": 79,
+        "raw": "36486",
+        "sample": 36486
+      },
+      {
+        "csv_line": 80,
+        "raw": "36940",
+        "sample": 36940
+      },
+      {
+        "csv_line": 81,
+        "raw": "37441",
+        "sample": 37441
+      },
+      {
+        "csv_line": 82,
+        "raw": "37640",
+        "sample": 37640
+      },
+      {
+        "csv_line": 83,
+        "raw": "38363",
+        "sample": 38363
+      },
+      {
+        "csv_line": 84,
+        "raw": "38832",
+        "sample": 38832
+      },
+      {
+        "csv_line": 85,
+        "raw": "39297",
+        "sample": 39297
+      },
+      {
+        "csv_line": 86,
+        "raw": "39524",
+        "sample": 39524
+      },
+      {
+        "csv_line": 87,
+        "raw": "40015",
+        "sample": 40015
+      },
+      {
+        "csv_line": 88,
+        "raw": "40489",
+        "sample": 40489
+      },
+      {
+        "csv_line": 89,
+        "raw": "40949",
+        "sample": 40949
+      },
+      {
+        "csv_line": 90,
+        "raw": "41422",
+        "sample": 41422
+      },
+      {
+        "csv_line": 91,
+        "raw": "41881",
+        "sample": 41881
+      },
+      {
+        "csv_line": 92,
+        "raw": "42287",
+        "sample": 42287
+      },
+      {
+        "csv_line": 93,
+        "raw": "42662",
+        "sample": 42662
+      },
+      {
+        "csv_line": 94,
+        "raw": "43105",
+        "sample": 43105
+      },
+      {
+        "csv_line": 95,
+        "raw": "43606",
+        "sample": 43606
+      },
+      {
+        "csv_line": 96,
+        "raw": "43923",
+        "sample": 43923
+      },
+      {
+        "csv_line": 97,
+        "raw": "44414",
+        "sample": 44414
+      },
+      {
+        "csv_line": 98,
+        "raw": "44846",
+        "sample": 44846
+      },
+      {
+        "csv_line": 99,
+        "raw": "45340",
+        "sample": 45340
+      },
+      {
+        "csv_line": 100,
+        "raw": "45810",
+        "sample": 45810
+      },
+      {
+        "csv_line": 101,
+        "raw": "46301",
+        "sample": 46301
+      },
+      {
+        "csv_line": 102,
+        "raw": "47119",
+        "sample": 47119
+      },
+      {
+        "csv_line": 103,
+        "raw": "47562",
+        "sample": 47562
+      },
+      {
+        "csv_line": 104,
+        "raw": "48058",
+        "sample": 48058
+      },
+      {
+        "csv_line": 105,
+        "raw": "48491",
+        "sample": 48491
+      },
+      {
+        "csv_line": 106,
+        "raw": "48964",
+        "sample": 48964
+      },
+      {
+        "csv_line": 107,
+        "raw": "49449",
+        "sample": 49449
+      },
+      {
+        "csv_line": 108,
+        "raw": "49919",
+        "sample": 49919
+      },
+      {
+        "csv_line": 109,
+        "raw": "50352",
+        "sample": 50352
+      },
+      {
+        "csv_line": 110,
+        "raw": "50827",
+        "sample": 50827
+      },
+      {
+        "csv_line": 111,
+        "raw": "51307",
+        "sample": 51307
+      },
+      {
+        "csv_line": 112,
+        "raw": "51766",
+        "sample": 51766
+      },
+      {
+        "csv_line": 113,
+        "raw": "52241",
+        "sample": 52241
+      },
+      {
+        "csv_line": 114,
+        "raw": "52708",
+        "sample": 52708
+      },
+      {
+        "csv_line": 115,
+        "raw": "53178",
+        "sample": 53178
+      },
+      {
+        "csv_line": 116,
+        "raw": "53606",
+        "sample": 53606
+      },
+      {
+        "csv_line": 117,
+        "raw": "54112",
+        "sample": 54112
+      },
+      {
+        "csv_line": 118,
+        "raw": "54534",
+        "sample": 54534
+      },
+      {
+        "csv_line": 119,
+        "raw": "54951",
+        "sample": 54951
+      },
+      {
+        "csv_line": 120,
+        "raw": "55447",
+        "sample": 55447
+      },
+      {
+        "csv_line": 121,
+        "raw": "55859",
+        "sample": 55859
+      },
+      {
+        "csv_line": 122,
+        "raw": "56369",
+        "sample": 56369
+      },
+      {
+        "csv_line": 123,
+        "raw": "56859",
+        "sample": 56859
+      },
+      {
+        "csv_line": 124,
+        "raw": "57313",
+        "sample": 57313
+      },
+      {
+        "csv_line": 125,
+        "raw": "57820",
+        "sample": 57820
+      },
+      {
+        "csv_line": 126,
+        "raw": "58268",
+        "sample": 58268
+      },
+      {
+        "csv_line": 127,
+        "raw": "58717",
+        "sample": 58717
+      },
+      {
+        "csv_line": 128,
+        "raw": "59176",
+        "sample": 59176
+      },
+      {
+        "csv_line": 129,
+        "raw": "59651",
+        "sample": 59651
+      }
+    ],
+    "operations": [
+      "sort_by_sample"
+    ],
+    "implicated_samples": [
+      28042,
+      29477
+    ],
+    "potentially_affected_primary_window_k": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "potentially_affected_primary_window_count": 14,
+    "affected_windows_interpretation": "potential membership, not actual usable RR changes"
+  },
+  {
+    "record_id": "20",
+    "annotator": 1,
+    "raw_event_count": 122,
+    "normalized_event_count": 121,
+    "exact_duplicate_instances_removed": 1,
+    "raw_adjacent_order_inversions": 0,
+    "raw_rows_samples": [
+      {
+        "csv_line": 2,
+        "raw": "150",
+        "sample": 150
+      },
+      {
+        "csv_line": 3,
+        "raw": "580",
+        "sample": 580
+      },
+      {
+        "csv_line": 4,
+        "raw": "980",
+        "sample": 980
+      },
+      {
+        "csv_line": 5,
+        "raw": "1476",
+        "sample": 1476
+      },
+      {
+        "csv_line": 6,
+        "raw": "1898",
+        "sample": 1898
+      },
+      {
+        "csv_line": 7,
+        "raw": "2424",
+        "sample": 2424
+      },
+      {
+        "csv_line": 8,
+        "raw": "2946",
+        "sample": 2946
+      },
+      {
+        "csv_line": 9,
+        "raw": "3489",
+        "sample": 3489
+      },
+      {
+        "csv_line": 10,
+        "raw": "3913",
+        "sample": 3913
+      },
+      {
+        "csv_line": 11,
+        "raw": "4443",
+        "sample": 4443
+      },
+      {
+        "csv_line": 12,
+        "raw": "4952",
+        "sample": 4952
+      },
+      {
+        "csv_line": 13,
+        "raw": "5409",
+        "sample": 5409
+      },
+      {
+        "csv_line": 14,
+        "raw": "5904",
+        "sample": 5904
+      },
+      {
+        "csv_line": 15,
+        "raw": "6400",
+        "sample": 6400
+      },
+      {
+        "csv_line": 16,
+        "raw": "6870",
+        "sample": 6870
+      },
+      {
+        "csv_line": 17,
+        "raw": "7343",
+        "sample": 7343
+      },
+      {
+        "csv_line": 18,
+        "raw": "7811",
+        "sample": 7811
+      },
+      {
+        "csv_line": 19,
+        "raw": "8389",
+        "sample": 8389
+      },
+      {
+        "csv_line": 20,
+        "raw": "8872",
+        "sample": 8872
+      },
+      {
+        "csv_line": 21,
+        "raw": "9276",
+        "sample": 9276
+      },
+      {
+        "csv_line": 22,
+        "raw": "9763",
+        "sample": 9763
+      },
+      {
+        "csv_line": 23,
+        "raw": "10367",
+        "sample": 10367
+      },
+      {
+        "csv_line": 24,
+        "raw": "10802",
+        "sample": 10802
+      },
+      {
+        "csv_line": 25,
+        "raw": "11317",
+        "sample": 11317
+      },
+      {
+        "csv_line": 26,
+        "raw": "11848",
+        "sample": 11848
+      },
+      {
+        "csv_line": 27,
+        "raw": "12370",
+        "sample": 12370
+      },
+      {
+        "csv_line": 28,
+        "raw": "12843",
+        "sample": 12843
+      },
+      {
+        "csv_line": 29,
+        "raw": "13304",
+        "sample": 13304
+      },
+      {
+        "csv_line": 30,
+        "raw": "13843",
+        "sample": 13843
+      },
+      {
+        "csv_line": 31,
+        "raw": "14374",
+        "sample": 14374
+      },
+      {
+        "csv_line": 32,
+        "raw": "14774",
+        "sample": 14774
+      },
+      {
+        "csv_line": 33,
+        "raw": "15315",
+        "sample": 15315
+      },
+      {
+        "csv_line": 34,
+        "raw": "15750",
+        "sample": 15750
+      },
+      {
+        "csv_line": 35,
+        "raw": "16241",
+        "sample": 16241
+      },
+      {
+        "csv_line": 36,
+        "raw": "16767",
+        "sample": 16767
+      },
+      {
+        "csv_line": 37,
+        "raw": "17320",
+        "sample": 17320
+      },
+      {
+        "csv_line": 38,
+        "raw": "17759",
+        "sample": 17759
+      },
+      {
+        "csv_line": 39,
+        "raw": "18259",
+        "sample": 18259
+      },
+      {
+        "csv_line": 40,
+        "raw": "18707",
+        "sample": 18707
+      },
+      {
+        "csv_line": 41,
+        "raw": "19243",
+        "sample": 19243
+      },
+      {
+        "csv_line": 42,
+        "raw": "19626",
+        "sample": 19626
+      },
+      {
+        "csv_line": 43,
+        "raw": "19626",
+        "sample": 19626
+      },
+      {
+        "csv_line": 44,
+        "raw": "20196",
+        "sample": 20196
+      },
+      {
+        "csv_line": 45,
+        "raw": "20635",
+        "sample": 20635
+      },
+      {
+        "csv_line": 46,
+        "raw": "21152",
+        "sample": 21152
+      },
+      {
+        "csv_line": 47,
+        "raw": "21691",
+        "sample": 21691
+      },
+      {
+        "csv_line": 48,
+        "raw": "22204",
+        "sample": 22204
+      },
+      {
+        "csv_line": 49,
+        "raw": "22715",
+        "sample": 22715
+      },
+      {
+        "csv_line": 50,
+        "raw": "23207",
+        "sample": 23207
+      },
+      {
+        "csv_line": 51,
+        "raw": "23720",
+        "sample": 23720
+      },
+      {
+        "csv_line": 52,
+        "raw": "24193",
+        "sample": 24193
+      },
+      {
+        "csv_line": 53,
+        "raw": "24733",
+        "sample": 24733
+      },
+      {
+        "csv_line": 54,
+        "raw": "25141",
+        "sample": 25141
+      },
+      {
+        "csv_line": 55,
+        "raw": "25637",
+        "sample": 25637
+      },
+      {
+        "csv_line": 56,
+        "raw": "26124",
+        "sample": 26124
+      },
+      {
+        "csv_line": 57,
+        "raw": "26622",
+        "sample": 26622
+      },
+      {
+        "csv_line": 58,
+        "raw": "27096",
+        "sample": 27096
+      },
+      {
+        "csv_line": 59,
+        "raw": "27657",
+        "sample": 27657
+      },
+      {
+        "csv_line": 60,
+        "raw": "28209",
+        "sample": 28209
+      },
+      {
+        "csv_line": 61,
+        "raw": "28652",
+        "sample": 28652
+      },
+      {
+        "csv_line": 62,
+        "raw": "29139",
+        "sample": 29139
+      },
+      {
+        "csv_line": 63,
+        "raw": "29704",
+        "sample": 29704
+      },
+      {
+        "csv_line": 64,
+        "raw": "30224",
+        "sample": 30224
+      },
+      {
+        "csv_line": 65,
+        "raw": "30693",
+        "sample": 30693
+      },
+      {
+        "csv_line": 66,
+        "raw": "31146",
+        "sample": 31146
+      },
+      {
+        "csv_line": 67,
+        "raw": "31711",
+        "sample": 31711
+      },
+      {
+        "csv_line": 68,
+        "raw": "32124",
+        "sample": 32124
+      },
+      {
+        "csv_line": 69,
+        "raw": "32663",
+        "sample": 32663
+      },
+      {
+        "csv_line": 70,
+        "raw": "33180",
+        "sample": 33180
+      },
+      {
+        "csv_line": 71,
+        "raw": "33628",
+        "sample": 33628
+      },
+      {
+        "csv_line": 72,
+        "raw": "34126",
+        "sample": 34126
+      },
+      {
+        "csv_line": 73,
+        "raw": "34617",
+        "sample": 34617
+      },
+      {
+        "csv_line": 74,
+        "raw": "35213",
+        "sample": 35213
+      },
+      {
+        "csv_line": 75,
+        "raw": "35657",
+        "sample": 35657
+      },
+      {
+        "csv_line": 76,
+        "raw": "36178",
+        "sample": 36178
+      },
+      {
+        "csv_line": 77,
+        "raw": "36717",
+        "sample": 36717
+      },
+      {
+        "csv_line": 78,
+        "raw": "37157",
+        "sample": 37157
+      },
+      {
+        "csv_line": 79,
+        "raw": "37633",
+        "sample": 37633
+      },
+      {
+        "csv_line": 80,
+        "raw": "38137",
+        "sample": 38137
+      },
+      {
+        "csv_line": 81,
+        "raw": "38620",
+        "sample": 38620
+      },
+      {
+        "csv_line": 82,
+        "raw": "38885",
+        "sample": 38885
+      },
+      {
+        "csv_line": 83,
+        "raw": "39141",
+        "sample": 39141
+      },
+      {
+        "csv_line": 84,
+        "raw": "39628",
+        "sample": 39628
+      },
+      {
+        "csv_line": 85,
+        "raw": "40193",
+        "sample": 40193
+      },
+      {
+        "csv_line": 86,
+        "raw": "40615",
+        "sample": 40615
+      },
+      {
+        "csv_line": 87,
+        "raw": "41102",
+        "sample": 41102
+      },
+      {
+        "csv_line": 88,
+        "raw": "41678",
+        "sample": 41678
+      },
+      {
+        "csv_line": 89,
+        "raw": "42204",
+        "sample": 42204
+      },
+      {
+        "csv_line": 90,
+        "raw": "42700",
+        "sample": 42700
+      },
+      {
+        "csv_line": 91,
+        "raw": "43126",
+        "sample": 43126
+      },
+      {
+        "csv_line": 92,
+        "raw": "43722",
+        "sample": 43722
+      },
+      {
+        "csv_line": 93,
+        "raw": "44265",
+        "sample": 44265
+      },
+      {
+        "csv_line": 94,
+        "raw": "44726",
+        "sample": 44726
+      },
+      {
+        "csv_line": 95,
+        "raw": "45250",
+        "sample": 45250
+      },
+      {
+        "csv_line": 96,
+        "raw": "45741",
+        "sample": 45741
+      },
+      {
+        "csv_line": 97,
+        "raw": "46280",
+        "sample": 46280
+      },
+      {
+        "csv_line": 98,
+        "raw": "46680",
+        "sample": 46680
+      },
+      {
+        "csv_line": 99,
+        "raw": "47124",
+        "sample": 47124
+      },
+      {
+        "csv_line": 100,
+        "raw": "47672",
+        "sample": 47672
+      },
+      {
+        "csv_line": 101,
+        "raw": "48167",
+        "sample": 48167
+      },
+      {
+        "csv_line": 102,
+        "raw": "48711",
+        "sample": 48711
+      },
+      {
+        "csv_line": 103,
+        "raw": "49252",
+        "sample": 49252
+      },
+      {
+        "csv_line": 104,
+        "raw": "49709",
+        "sample": 49709
+      },
+      {
+        "csv_line": 105,
+        "raw": "50235",
+        "sample": 50235
+      },
+      {
+        "csv_line": 106,
+        "raw": "50700",
+        "sample": 50700
+      },
+      {
+        "csv_line": 107,
+        "raw": "51278",
+        "sample": 51278
+      },
+      {
+        "csv_line": 108,
+        "raw": "51848",
+        "sample": 51848
+      },
+      {
+        "csv_line": 109,
+        "raw": "52339",
+        "sample": 52339
+      },
+      {
+        "csv_line": 110,
+        "raw": "52841",
+        "sample": 52841
+      },
+      {
+        "csv_line": 111,
+        "raw": "53498",
+        "sample": 53498
+      },
+      {
+        "csv_line": 112,
+        "raw": "54041",
+        "sample": 54041
+      },
+      {
+        "csv_line": 113,
+        "raw": "54502",
+        "sample": 54502
+      },
+      {
+        "csv_line": 114,
+        "raw": "55028",
+        "sample": 55028
+      },
+      {
+        "csv_line": 115,
+        "raw": "55585",
+        "sample": 55585
+      },
+      {
+        "csv_line": 116,
+        "raw": "56015",
+        "sample": 56015
+      },
+      {
+        "csv_line": 117,
+        "raw": "56565",
+        "sample": 56565
+      },
+      {
+        "csv_line": 118,
+        "raw": "57061",
+        "sample": 57061
+      },
+      {
+        "csv_line": 119,
+        "raw": "57552",
+        "sample": 57552
+      },
+      {
+        "csv_line": 120,
+        "raw": "58117",
+        "sample": 58117
+      },
+      {
+        "csv_line": 121,
+        "raw": "58622",
+        "sample": 58622
+      },
+      {
+        "csv_line": 122,
+        "raw": "59204",
+        "sample": 59204
+      },
+      {
+        "csv_line": 123,
+        "raw": "59826",
+        "sample": 59826
+      }
+    ],
+    "operations": [
+      "collapse_identical_sample"
+    ],
+    "implicated_samples": [
+      19626
+    ],
+    "potentially_affected_primary_window_k": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "potentially_affected_primary_window_count": 11,
+    "affected_windows_interpretation": "potential membership, not actual usable RR changes"
+  }
+]

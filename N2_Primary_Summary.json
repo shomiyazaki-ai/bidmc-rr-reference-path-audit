@@ -1,0 +1,57 @@
+{
+  "protocol": "N2 Minimum Research Protocol v1.0 FROZEN 2026-10-12",
+  "stage": "Session 4 descriptive primary summary (no sensitivity, MSC or independent reproducibility claimed)",
+  "source_window_csv_sha256": "a5c982c05e40d801440c372128dc59f0bab4407219956a35b5c8fd16e884a614",
+  "source_control_sha256": "1946d4b1e8f14bfc9eafad43f246f236664fae89f4d5f3e076a39d08ac01f892",
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "counts": {
+    "base_windows": 7950,
+    "monitor_complete": 7797,
+    "ann1_computable": 7947,
+    "ann2_computable": 7950,
+    "both_computable": 7947,
+    "agreement_pass": 7389,
+    "agreement_fail": 558,
+    "agreement_not_evaluable": 3,
+    "pre_screen_monitor_intersection": 7794,
+    "eligible": 7271,
+    "monitor_incomplete": 153,
+    "both_not_computable": 3,
+    "pre_intersection_screen_fail": 523,
+    "zero_none_eligible": 7260,
+    "zero_partial_eligible": 0,
+    "zero_all_eligible": 11
+  },
+  "window_pooled_MAE_bpm": 0.9262714657813655,
+  "window_pooled_signed_bias_bpm": 0.2615690629526132,
+  "equal_record_MAE_bpm": 1.2478760575993653,
+  "equal_record_R": 53,
+  "records_total": 53,
+  "zero_state": {
+    "zero_none": {
+      "eligible": 7260,
+      "mae": 0.894787070234592
+    },
+    "zero_partial": {
+      "eligible": 0,
+      "mae": null
+    },
+    "zero_all": {
+      "eligible": 11,
+      "mae": 21.70597252665195
+    }
+  },
+  "exclusion_reason_occurrences_nonexclusive": {
+    "interannotator_disagreement_gt_2": 558,
+    "monitor_nonfinite_RESP": 153,
+    "ann1_insufficient_events": 3
+  },
+  "limitations": [
+    "Overlapping windows are not independent observations",
+    "The monitor and manual annotation pathways refer to the same underlying impedance respiration signal",
+    "MAE here is numerical discordance, not prediction error or clinical accuracy",
+    "Two bpm screening applies to annotators, not monitor-reference differences",
+    "Finite monitor zero retained; no physiological apnoea inference",
+    "Reasons overlap and do not partition ineligible windows"
+  ]
+}

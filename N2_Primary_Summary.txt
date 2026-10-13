@@ -1,0 +1,45 @@
+N2 PRIMARY SUMMARY — Session 4
+Protocol: v1.0 FROZEN (2026-10-12)
+Input Window CSV SHA256: a5c982c05e40d801440c372128dc59f0bab4407219956a35b5c8fd16e884a614
+
+PRIMARY — all eligible overlapping windows
+Eligible: 7271 / 7950
+Window-pooled MAE (bpm): 0.926271466
+Window-pooled signed bias, monitor - RR_ref (bpm): 0.261569063
+
+SUPPLEMENTARY
+Equal-record MAE (bpm): 1.247876058 (R=53 / 53 records with >=1 eligible window)
+zero_none: N=7260, MAE_bpm=0.894787070
+zero_partial: N=0, MAE_bpm=NA
+zero_all: N=11, MAE_bpm=21.705972527
+
+AVAILABILITY (window counts; overlapping conditions do not partition):
+base_windows: 7950
+monitor_complete: 7797
+ann1_computable: 7947
+ann2_computable: 7950
+both_computable: 7947
+agreement_pass: 7389
+agreement_fail: 558
+agreement_not_evaluable: 3
+pre_screen_monitor_intersection: 7794
+eligible: 7271
+monitor_incomplete: 153
+both_not_computable: 3
+pre_intersection_screen_fail: 523
+zero_none_eligible: 7260
+zero_partial_eligible: 0
+zero_all_eligible: 11
+
+EXCLUSION REASONS (nonexclusive event counts):
+ann1_insufficient_events: 3
+interannotator_disagreement_gt_2: 558
+monitor_nonfinite_RESP: 153
+
+Limitations:
+- Overlapping windows are not independent observations
+- The monitor and manual annotation pathways refer to the same underlying impedance respiration signal
+- MAE here is numerical discordance, not prediction error or clinical accuracy
+- Two bpm screening applies to annotators, not monitor-reference differences
+- Finite monitor zero retained; no physiological apnoea inference
+- Reasons overlap and do not partition ineligible windows

@@ -1,0 +1,2 @@
+# Python standard library only. Tested original code with Python 3.13.1 and 3.13.5.
+# No third-party Python dependencies.

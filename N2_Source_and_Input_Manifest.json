@@ -1,0 +1,2387 @@
+{
+  "assessment_date_jst": "2026-10-12",
+  "assessment_stage": "Pre-Protocol only; protocol not frozen",
+  "python_version": "3.12.14",
+  "script_sha256": "791ae33c36af76d631eb4c523683d80814542f9fba5901f9ebe8aca2992137af",
+  "audit_convention": {
+    "duration_s": 480,
+    "window_s": 32,
+    "update_s": 3,
+    "start_s": 0,
+    "interval": "[start,end)",
+    "annotation_seconds": "(sample-1)/125",
+    "last_start_s": 447,
+    "last_end_s": 479,
+    "expected_samples": 32
+  },
+  "files": [
+    {
+      "file": "paper.pdf",
+      "relative_path": "n2_work/sources/paper.pdf",
+      "url": "https://www.robots.ox.ac.uk/~davidc/pubs/tbme2017a.pdf",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 520819,
+      "sha256": "a95dade79aafae04e358ed24d70d070ac84fe8beb48c275f45430a8065a04a26",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "README",
+      "relative_path": "n2_work/sources/README",
+      "url": "https://physionet.org/files/bidmc/1.0.0/README",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 3948,
+      "sha256": "866f7ea4c3eca75e748620782752dc9e19aabc1a33f790dc962abc74a6f15456",
+      "official_sha256": "866f7ea4c3eca75e748620782752dc9e19aabc1a33f790dc962abc74a6f15456",
+      "official_sha256_match": true
+    },
+    {
+      "file": "RECORDS",
+      "relative_path": "n2_work/sources/RECORDS",
+      "url": "https://physionet.org/files/bidmc/1.0.0/RECORDS",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 424,
+      "sha256": "730b14f4ebe84a907ba39fe713d5d90e12d4413c0e2d321db9ed9dea584558d0",
+      "official_sha256": "730b14f4ebe84a907ba39fe713d5d90e12d4413c0e2d321db9ed9dea584558d0",
+      "official_sha256_match": true
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "relative_path": "n2_work/sources/SHA256SUMS.txt",
+      "url": "https://physionet.org/files/bidmc/1.0.0/SHA256SUMS.txt",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 41306,
+      "sha256": "e28756681318a18d9c682a68cdff65efcaccb3ece40cfccd380540b77a3fdd6d",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "physionet.html",
+      "relative_path": "n2_work/sources/physionet.html",
+      "url": "https://physionet.org/content/bidmc/1.0.0/",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 120371,
+      "sha256": "b21ae6b07f482a181b532baea56df8420a4c64b9443a5138aa9da64105754407",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "bidmc_dataset.html",
+      "relative_path": "n2_work/sources/bidmc_dataset.html",
+      "url": "https://peterhcharlton.github.io/RRest/bidmc_dataset.html",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 5510,
+      "sha256": "9dbc38c619db3d8764571aa86e162acecb5a4e6b4317f7918a4431fd56431d11",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "publications.html",
+      "relative_path": "n2_work/sources/publications.html",
+      "url": "https://peterhcharlton.github.io/RRest/publications.html",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 4843,
+      "sha256": "64c36d52b6100a5d45ae8ce5b8b6331d6946035d049576cb85aa05c4580a8bae",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "BIDMC_data_importer_v3.m",
+      "relative_path": "n2_work/sources/BIDMC_data_importer_v3.m",
+      "url": "https://raw.githubusercontent.com/peterhcharlton/RRest/f5022e7029c5b6d6b8159b665dccc2c8f267976e/RRest_v3.0/Data_Import_Scripts/BIDMC_data_importer.m",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 133855,
+      "sha256": "80ab0f595dfbb7c569a13354a61e6d066bf3c93803365a68272cc184502399f8",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "estimate_ref_rr_v3.m",
+      "relative_path": "n2_work/sources/estimate_ref_rr_v3.m",
+      "url": "https://raw.githubusercontent.com/peterhcharlton/RRest/f5022e7029c5b6d6b8159b665dccc2c8f267976e/RRest_v3.0/Algorithms/estimate_ref_rr/estimate_ref_rr.m",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 29885,
+      "sha256": "8197983c3cb57eecc5b1e40e6eeb6c1a42b84d5eee17cb863760d542595ba0fa",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "estimate_ref_rr_v1.m",
+      "relative_path": "n2_work/sources/estimate_ref_rr_v1.m",
+      "url": "https://raw.githubusercontent.com/peterhcharlton/RRest/f5022e7029c5b6d6b8159b665dccc2c8f267976e/RRest_v1.0/Algorithms/estimate_ref_rr/estimate_ref_rr.m",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 19207,
+      "sha256": "eeb768079128b4df80d3323330c0c86e65f0a6c0e98d0ff0cc583b2eb0d1e31d",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "ppg_audit.py",
+      "relative_path": "n2_work/sources/ppg_audit.py",
+      "url": "https://raw.githubusercontent.com/Tasfia-17/ppg-audit/ee0d756aeec25e34c8223f014906111a8e09b70b/audit.py",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 56344,
+      "sha256": "b15d73abd28f0bc67911e1be788d313bd0da9fd94b0913342493d59939b42539",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "ppg_paper.tex",
+      "relative_path": "n2_work/sources/ppg_paper.tex",
+      "url": "https://raw.githubusercontent.com/Tasfia-17/ppg-audit/ee0d756aeec25e34c8223f014906111a8e09b70b/paper.tex",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 21673,
+      "sha256": "cf720e71b5eb167a19c19cf45afa00ca31105c2c30bd8d2dd1ed9df7e357b585",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "wfdb_wrann.m",
+      "relative_path": "n2_work/sources/wfdb_wrann.m",
+      "url": "https://raw.githubusercontent.com/ikarosilva/wfdb-app-toolbox/master/mcode/wrann.m",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 6651,
+      "sha256": "5fb5625c648ac54610cd693c6a63bc999121c4d58772371583f1fc7cb1d0284b",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "wfdb_rdann.m",
+      "relative_path": "n2_work/sources/wfdb_rdann.m",
+      "url": "https://raw.githubusercontent.com/ikarosilva/wfdb-app-toolbox/master/mcode/rdann.m",
+      "release": null,
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8078,
+      "sha256": "da079f8fda7fb9703b33e5edff8e53897d61bd0c5b8ab04be7bb158924f56e49",
+      "official_sha256": null,
+      "official_sha256_match": null
+    },
+    {
+      "file": "bidmc01.breath",
+      "relative_path": "n2_work/sources/bidmc01.breath",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc01.breath",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2682,
+      "sha256": "e437761950bec39df92d7a35b3dbff5ec780be950d93c56ff5d8148e62ade6a7",
+      "official_sha256": "e437761950bec39df92d7a35b3dbff5ec780be950d93c56ff5d8148e62ade6a7",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc01.hea",
+      "relative_path": "n2_work/sources/bidmc01.hea",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc01.hea",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 595,
+      "sha256": "f43b0b139ad8f4d45097403b7179e1e6f8bda17dfd06dba504faf39a115aa27f",
+      "official_sha256": "f43b0b139ad8f4d45097403b7179e1e6f8bda17dfd06dba504faf39a115aa27f",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc01n.hea",
+      "relative_path": "n2_work/sources/bidmc01n.hea",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc01n.hea",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 514,
+      "sha256": "4089c28fc62dd45922bd45b757b784a6f013767c9ba0591c06f80018d5c3eaa3",
+      "official_sha256": "4089c28fc62dd45922bd45b757b784a6f013767c9ba0591c06f80018d5c3eaa3",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc13.hea",
+      "relative_path": "n2_work/sources/bidmc13.hea",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc13.hea",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 600,
+      "sha256": "28036559367dd80b95c302cb23d56dd79995af5ddc898867af6e837e3574c1e1",
+      "official_sha256": "28036559367dd80b95c302cb23d56dd79995af5ddc898867af6e837e3574c1e1",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc23.hea",
+      "relative_path": "n2_work/sources/bidmc23.hea",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc23.hea",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 657,
+      "sha256": "c3986cd49e4ec9401e206887afe03db7355aeabe77e40ed3438a97cb99bc2fa4",
+      "official_sha256": "c3986cd49e4ec9401e206887afe03db7355aeabe77e40ed3438a97cb99bc2fa4",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_01_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_01_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_01_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7644,
+      "sha256": "27d43794cf2e7150db10e8bfe61d2bfdb26873a8f1629ffc5fbee5c9a4eb6ef5",
+      "retrieved_at_utc": "2026-10-12T03:13:15.305409+00:00",
+      "official_sha256": "27d43794cf2e7150db10e8bfe61d2bfdb26873a8f1629ffc5fbee5c9a4eb6ef5",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_01_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_01_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_01_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2039,
+      "sha256": "698846517e27e7789d855875bae9774db3c189900efae8e486c300ed5ce58037",
+      "retrieved_at_utc": "2026-10-12T03:13:15.306019+00:00",
+      "official_sha256": "698846517e27e7789d855875bae9774db3c189900efae8e486c300ed5ce58037",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_02_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_02_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_02_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8094,
+      "sha256": "99aef20b2846815d45ecde184da753de58c8a85b7dd7af74a2f4c5282013704d",
+      "retrieved_at_utc": "2026-10-12T03:13:15.306523+00:00",
+      "official_sha256": "99aef20b2846815d45ecde184da753de58c8a85b7dd7af74a2f4c5282013704d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_02_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_02_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_02_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1483,
+      "sha256": "b17230d3a2b3f7063b3a2e9b4dc94e46bf02c1dc7b3f71ee0507e0598d6609ac",
+      "retrieved_at_utc": "2026-10-12T03:13:15.306971+00:00",
+      "official_sha256": "b17230d3a2b3f7063b3a2e9b4dc94e46bf02c1dc7b3f71ee0507e0598d6609ac",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_03_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_03_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_03_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "6666475c072fe079f35f1fffe0890a97b56d1086985f8a5d76a23b88eb6c6036",
+      "retrieved_at_utc": "2026-10-12T03:13:15.307494+00:00",
+      "official_sha256": "6666475c072fe079f35f1fffe0890a97b56d1086985f8a5d76a23b88eb6c6036",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_03_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_03_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_03_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1717,
+      "sha256": "13369112102198ee51b291164c61614a06c73cc9edfa66af6b7070b786dded5f",
+      "retrieved_at_utc": "2026-10-12T03:13:15.308109+00:00",
+      "official_sha256": "13369112102198ee51b291164c61614a06c73cc9edfa66af6b7070b786dded5f",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_04_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_04_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_04_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "2d3f34558f11ae5ff4170793942c86fd76ecc9c11a3868fd9dbaabf3249ee121",
+      "retrieved_at_utc": "2026-10-12T03:13:15.308882+00:00",
+      "official_sha256": "2d3f34558f11ae5ff4170793942c86fd76ecc9c11a3868fd9dbaabf3249ee121",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_04_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_04_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_04_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1611,
+      "sha256": "ffbdd1b8bcd1047e45cca343487a2f3bc74fcf4b0a8c09a1d0951bc83c710d17",
+      "retrieved_at_utc": "2026-10-12T03:13:15.311124+00:00",
+      "official_sha256": "ffbdd1b8bcd1047e45cca343487a2f3bc74fcf4b0a8c09a1d0951bc83c710d17",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_05_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_05_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_05_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7836,
+      "sha256": "b26e17895c9961bf36c0172e0da2fd58120e30ab6df5c21a3cfc56665630c308",
+      "retrieved_at_utc": "2026-10-12T03:13:24.003865+00:00",
+      "official_sha256": "b26e17895c9961bf36c0172e0da2fd58120e30ab6df5c21a3cfc56665630c308",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_05_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_05_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_05_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 621,
+      "sha256": "a3e0d2c3e4d7f999e448fe98eecaa7cf4db3ae3946197045505c7f9821cd25f7",
+      "retrieved_at_utc": "2026-10-12T03:13:24.006558+00:00",
+      "official_sha256": "a3e0d2c3e4d7f999e448fe98eecaa7cf4db3ae3946197045505c7f9821cd25f7",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_06_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_06_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_06_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "d7b221639fe1baa3360544ac6507af78871ec190ac79a44f122ddde119c22d05",
+      "retrieved_at_utc": "2026-10-12T03:13:24.053851+00:00",
+      "official_sha256": "d7b221639fe1baa3360544ac6507af78871ec190ac79a44f122ddde119c22d05",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_06_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_06_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_06_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1939,
+      "sha256": "b7675b1d7a5633f602e3aa5060853487be818193d044e3b340907a1738d53f89",
+      "retrieved_at_utc": "2026-10-12T03:13:24.208208+00:00",
+      "official_sha256": "b7675b1d7a5633f602e3aa5060853487be818193d044e3b340907a1738d53f89",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_07_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_07_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_07_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "ea43103b33f9cb4d5b99076d642f79819b971a5b177dae8e30718f32bd240d00",
+      "retrieved_at_utc": "2026-10-12T03:13:24.322443+00:00",
+      "official_sha256": "ea43103b33f9cb4d5b99076d642f79819b971a5b177dae8e30718f32bd240d00",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_07_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_07_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_07_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1925,
+      "sha256": "855dba26b1e3f3389bfab2ebde74d4ad3ba0ab8a4d6480ea6f6fdb95b7454354",
+      "retrieved_at_utc": "2026-10-12T03:13:24.365012+00:00",
+      "official_sha256": "855dba26b1e3f3389bfab2ebde74d4ad3ba0ab8a4d6480ea6f6fdb95b7454354",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_08_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_08_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_08_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8304,
+      "sha256": "a2d66b1e07d2845a3a9e50329bdea1288fa98f7adaca5cd8077cb091104c96f2",
+      "retrieved_at_utc": "2026-10-12T03:13:24.457186+00:00",
+      "official_sha256": "a2d66b1e07d2845a3a9e50329bdea1288fa98f7adaca5cd8077cb091104c96f2",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_08_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_08_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_08_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2043,
+      "sha256": "d587152a09d862378484bb3ce6d9a148cce4f6cf788df9248c10666acbc6bbed",
+      "retrieved_at_utc": "2026-10-12T03:13:24.630800+00:00",
+      "official_sha256": "d587152a09d862378484bb3ce6d9a148cce4f6cf788df9248c10666acbc6bbed",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_09_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_09_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_09_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "f73d989891d2eed70868750aa9529c148bd90d771b4c8b199e815c68f00f7932",
+      "retrieved_at_utc": "2026-10-12T03:13:33.202745+00:00",
+      "official_sha256": "f73d989891d2eed70868750aa9529c148bd90d771b4c8b199e815c68f00f7932",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_09_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_09_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_09_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1939,
+      "sha256": "1f112207036b4a7c496e25204c834d3c785edde313443656af1edbb971e020e2",
+      "retrieved_at_utc": "2026-10-12T03:13:33.222171+00:00",
+      "official_sha256": "1f112207036b4a7c496e25204c834d3c785edde313443656af1edbb971e020e2",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_10_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_10_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_10_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7638,
+      "sha256": "fc697ba7af8bb74eed871ab0eba10f4913ad14633e9e6b6337cdc19d03fb6df0",
+      "retrieved_at_utc": "2026-10-12T03:13:33.248792+00:00",
+      "official_sha256": "fc697ba7af8bb74eed871ab0eba10f4913ad14633e9e6b6337cdc19d03fb6df0",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_10_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_10_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_10_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1821,
+      "sha256": "f57b75c32d95ba4dd1b340d04b2a1e1881ff273e983f37a21dc18959a585eec6",
+      "retrieved_at_utc": "2026-10-12T03:13:33.635951+00:00",
+      "official_sha256": "f57b75c32d95ba4dd1b340d04b2a1e1881ff273e983f37a21dc18959a585eec6",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_11_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_11_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_11_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7760,
+      "sha256": "8adf747b0c52ea69cea47a8562149b68cb900b9b99215e6e17a33f88ad62f664",
+      "retrieved_at_utc": "2026-10-12T03:13:33.673652+00:00",
+      "official_sha256": "8adf747b0c52ea69cea47a8562149b68cb900b9b99215e6e17a33f88ad62f664",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_11_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_11_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_11_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1455,
+      "sha256": "c3b7ba78919895566d6134649bf8b5c7c572d11f32a8845cb1b269d45ec329ca",
+      "retrieved_at_utc": "2026-10-12T03:13:33.716184+00:00",
+      "official_sha256": "c3b7ba78919895566d6134649bf8b5c7c572d11f32a8845cb1b269d45ec329ca",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_12_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_12_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_12_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "9add05d655e275b955bd8462be9c65433eb9c6433d0c567f25b6f984ccdbd8d4",
+      "retrieved_at_utc": "2026-10-12T03:13:34.169383+00:00",
+      "official_sha256": "9add05d655e275b955bd8462be9c65433eb9c6433d0c567f25b6f984ccdbd8d4",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_12_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_12_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_12_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1831,
+      "sha256": "754d147e4073d840e2cb668660cf7894debf9995143998e34c136f71d983f19c",
+      "retrieved_at_utc": "2026-10-12T03:13:34.589803+00:00",
+      "official_sha256": "754d147e4073d840e2cb668660cf7894debf9995143998e34c136f71d983f19c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_13_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_13_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_13_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7953,
+      "sha256": "62602513f381e50b3e7692ba3757995ea348f0896c5242b701cb105471addac1",
+      "retrieved_at_utc": "2026-10-12T03:13:42.942138+00:00",
+      "official_sha256": "62602513f381e50b3e7692ba3757995ea348f0896c5242b701cb105471addac1",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_13_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_13_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_13_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1973,
+      "sha256": "a5aa67976df1a2fc338b67aa99677e2560cc22aaeb877bc5cac35e9803f15ef6",
+      "retrieved_at_utc": "2026-10-12T03:13:42.949537+00:00",
+      "official_sha256": "a5aa67976df1a2fc338b67aa99677e2560cc22aaeb877bc5cac35e9803f15ef6",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_14_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_14_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_14_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7671,
+      "sha256": "773a11554b7e4f1038bb02d8c3587c762a5e6d7ff28a08c76462800681d2ec14",
+      "retrieved_at_utc": "2026-10-12T03:13:42.956325+00:00",
+      "official_sha256": "773a11554b7e4f1038bb02d8c3587c762a5e6d7ff28a08c76462800681d2ec14",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_14_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_14_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_14_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1339,
+      "sha256": "49654e35bf41cf668cd661491556242c17b83cf19453320d291666db859a4174",
+      "retrieved_at_utc": "2026-10-12T03:13:43.045569+00:00",
+      "official_sha256": "49654e35bf41cf668cd661491556242c17b83cf19453320d291666db859a4174",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_15_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_15_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_15_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8578,
+      "sha256": "6091ee8d95ecdec37b150391a02bde9a60da56f76fb41f7ebbd5e15482b0fb4d",
+      "retrieved_at_utc": "2026-10-12T03:13:43.052149+00:00",
+      "official_sha256": "6091ee8d95ecdec37b150391a02bde9a60da56f76fb41f7ebbd5e15482b0fb4d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_15_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_15_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_15_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1480,
+      "sha256": "ca90ae89f4f0d8a6f42f0edf5d84a687731d31c3b235ca7c718793db078978aa",
+      "retrieved_at_utc": "2026-10-12T03:13:43.075783+00:00",
+      "official_sha256": "ca90ae89f4f0d8a6f42f0edf5d84a687731d31c3b235ca7c718793db078978aa",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_16_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_16_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_16_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8600,
+      "sha256": "678d1272874fdb6bea78981556729589ac2a56d055d95b980e1972a2a0f1ca26",
+      "retrieved_at_utc": "2026-10-12T03:13:43.466451+00:00",
+      "official_sha256": "678d1272874fdb6bea78981556729589ac2a56d055d95b980e1972a2a0f1ca26",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_16_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_16_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_16_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1881,
+      "sha256": "a3bb8a50dc5c5bde24eed8c2cd88c026251c67584f61f8ed650ce0c5e31eb9cf",
+      "retrieved_at_utc": "2026-10-12T03:13:43.772147+00:00",
+      "official_sha256": "a3bb8a50dc5c5bde24eed8c2cd88c026251c67584f61f8ed650ce0c5e31eb9cf",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_17_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_17_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_17_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "8dae48b1f0e48f105e0d838db6aff307ac24d2b403753e3f716b093190054b11",
+      "retrieved_at_utc": "2026-10-12T03:13:54.153725+00:00",
+      "official_sha256": "8dae48b1f0e48f105e0d838db6aff307ac24d2b403753e3f716b093190054b11",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_17_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_17_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_17_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1661,
+      "sha256": "66ff32a2e47e618ea09385be2518a54126b00c675ffa8e9d6f2ae82e2cdba111",
+      "retrieved_at_utc": "2026-10-12T03:13:54.452087+00:00",
+      "official_sha256": "66ff32a2e47e618ea09385be2518a54126b00c675ffa8e9d6f2ae82e2cdba111",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_18_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_18_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_18_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "4febc6cb99d1552096a299b4b17a1c6f1691028b4a11f29f55a6b8947045694d",
+      "retrieved_at_utc": "2026-10-12T03:13:54.462661+00:00",
+      "official_sha256": "4febc6cb99d1552096a299b4b17a1c6f1691028b4a11f29f55a6b8947045694d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_18_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_18_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_18_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1737,
+      "sha256": "2eb7bc017f9a90977a8dc48542aca72f35b63a9bd7d394140fe10de24b05edf4",
+      "retrieved_at_utc": "2026-10-12T03:13:54.476812+00:00",
+      "official_sha256": "2eb7bc017f9a90977a8dc48542aca72f35b63a9bd7d394140fe10de24b05edf4",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_19_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_19_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_19_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8165,
+      "sha256": "13175fb31a4aca05077f7bb322fd0cee4266e0f5a6354db3bb16a5c9606b3dbb",
+      "retrieved_at_utc": "2026-10-12T03:13:54.592839+00:00",
+      "official_sha256": "13175fb31a4aca05077f7bb322fd0cee4266e0f5a6354db3bb16a5c9606b3dbb",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_19_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_19_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_19_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1540,
+      "sha256": "ccd976749bc94fe88ae09fe4a3ed404c5633169e95d341420bb3ac0c3a5c51c9",
+      "retrieved_at_utc": "2026-10-12T03:13:55.085009+00:00",
+      "official_sha256": "ccd976749bc94fe88ae09fe4a3ed404c5633169e95d341420bb3ac0c3a5c51c9",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_20_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_20_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_20_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8015,
+      "sha256": "2ea4edae03abe216a3625ac94e668dd41691e39cc1fa543f3da08dbb50df0d1e",
+      "retrieved_at_utc": "2026-10-12T03:13:56.002081+00:00",
+      "official_sha256": "2ea4edae03abe216a3625ac94e668dd41691e39cc1fa543f3da08dbb50df0d1e",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_20_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_20_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_20_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1477,
+      "sha256": "4ce661a7c6fa9835552ec9b81ba5c1ce3866ced7a03f7da2af9ca46d50e88d86",
+      "retrieved_at_utc": "2026-10-12T03:13:56.167837+00:00",
+      "official_sha256": "4ce661a7c6fa9835552ec9b81ba5c1ce3866ced7a03f7da2af9ca46d50e88d86",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_21_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_21_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_21_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 9061,
+      "sha256": "be4102f8b9aad57f2c286b0a3d7fbef55474234ea2c5ab769232dd6fd13e51f6",
+      "retrieved_at_utc": "2026-10-12T03:14:03.903734+00:00",
+      "official_sha256": "be4102f8b9aad57f2c286b0a3d7fbef55474234ea2c5ab769232dd6fd13e51f6",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_21_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_21_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_21_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1745,
+      "sha256": "d94036563f2b5de3bf7f51e547f80e3e28be0db0702fc142ad404e4b3920780c",
+      "retrieved_at_utc": "2026-10-12T03:14:03.960134+00:00",
+      "official_sha256": "d94036563f2b5de3bf7f51e547f80e3e28be0db0702fc142ad404e4b3920780c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_22_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_22_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_22_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "13237e200810c0738d1ab09d47a078cf5b410b5ba0f831257396ddd19fdc9e46",
+      "retrieved_at_utc": "2026-10-12T03:14:04.008137+00:00",
+      "official_sha256": "13237e200810c0738d1ab09d47a078cf5b410b5ba0f831257396ddd19fdc9e46",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_22_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_22_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_22_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1807,
+      "sha256": "43b7a624f33110a0e429ed2c10850da0b1fb4e25cb1296f10559146cb4181850",
+      "retrieved_at_utc": "2026-10-12T03:14:04.027453+00:00",
+      "official_sha256": "43b7a624f33110a0e429ed2c10850da0b1fb4e25cb1296f10559146cb4181850",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_23_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_23_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_23_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7640,
+      "sha256": "cd5f93648fc417c7bdf31c23e23d0fdfb08f06dce2dd0ae8d1111ed370eaeeca",
+      "retrieved_at_utc": "2026-10-12T03:14:04.221569+00:00",
+      "official_sha256": "cd5f93648fc417c7bdf31c23e23d0fdfb08f06dce2dd0ae8d1111ed370eaeeca",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_23_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_23_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_23_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1737,
+      "sha256": "335f5d7f3bcb29c0ccb8de05f1b71db64bf3120e658b26d6013140718681e73c",
+      "retrieved_at_utc": "2026-10-12T03:14:04.341015+00:00",
+      "official_sha256": "335f5d7f3bcb29c0ccb8de05f1b71db64bf3120e658b26d6013140718681e73c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_24_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_24_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_24_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7799,
+      "sha256": "48b2d49f3f22fc9a156590a4366e29654b79ca03be19bb17b8250c89b6ff113a",
+      "retrieved_at_utc": "2026-10-12T03:14:04.456028+00:00",
+      "official_sha256": "48b2d49f3f22fc9a156590a4366e29654b79ca03be19bb17b8250c89b6ff113a",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_24_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_24_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_24_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2156,
+      "sha256": "9386936d53a599f18f69e9182ca48300dbdd036b61e43b0fd58c968309828fae",
+      "retrieved_at_utc": "2026-10-12T03:14:04.491756+00:00",
+      "official_sha256": "9386936d53a599f18f69e9182ca48300dbdd036b61e43b0fd58c968309828fae",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_25_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_25_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_25_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8581,
+      "sha256": "215ab08fc17791af1c0391d9ee7554d825518195c9dfb12f8e03135a06808c46",
+      "retrieved_at_utc": "2026-10-12T03:14:13.658581+00:00",
+      "official_sha256": "215ab08fc17791af1c0391d9ee7554d825518195c9dfb12f8e03135a06808c46",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_25_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_25_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_25_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1565,
+      "sha256": "8c809581417fda4a087c38e8360879726ec6e642c4186afab605ec11272abb67",
+      "retrieved_at_utc": "2026-10-12T03:14:13.695942+00:00",
+      "official_sha256": "8c809581417fda4a087c38e8360879726ec6e642c4186afab605ec11272abb67",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_26_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_26_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_26_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "d7ff9690fc6662cfb7a1cb1f66c99d3af71984cc6a6c42d5c3e242bb23b2f314",
+      "retrieved_at_utc": "2026-10-12T03:14:13.747735+00:00",
+      "official_sha256": "d7ff9690fc6662cfb7a1cb1f66c99d3af71984cc6a6c42d5c3e242bb23b2f314",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_26_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_26_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_26_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1642,
+      "sha256": "3fd2da8fd6d846abf289b2af20db3d58d322abed4f37bbda8dfc7e52dcd90e32",
+      "retrieved_at_utc": "2026-10-12T03:14:13.765986+00:00",
+      "official_sha256": "3fd2da8fd6d846abf289b2af20db3d58d322abed4f37bbda8dfc7e52dcd90e32",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_27_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_27_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_27_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7530,
+      "sha256": "5edb8cbfbc401f4a9ee67cd4e2933c4fdc0d3f83325cb8b51f1839f644e36a82",
+      "retrieved_at_utc": "2026-10-12T03:14:13.840565+00:00",
+      "official_sha256": "5edb8cbfbc401f4a9ee67cd4e2933c4fdc0d3f83325cb8b51f1839f644e36a82",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_27_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_27_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_27_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1087,
+      "sha256": "ab74abb38757ffa006f998530615dd95bffda3d5590d4b6d94c3f6c7a5a97e1f",
+      "retrieved_at_utc": "2026-10-12T03:14:14.241818+00:00",
+      "official_sha256": "ab74abb38757ffa006f998530615dd95bffda3d5590d4b6d94c3f6c7a5a97e1f",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_28_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_28_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_28_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8070,
+      "sha256": "6a26b5947bb249b60570edf601a05d12d69282d131671ddb03d34c9ba79d051c",
+      "retrieved_at_utc": "2026-10-12T03:14:14.270878+00:00",
+      "official_sha256": "6a26b5947bb249b60570edf601a05d12d69282d131671ddb03d34c9ba79d051c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_28_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_28_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_28_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1752,
+      "sha256": "2f98c94c51808ec73980469c4f888b42773078f8db22dd47f4056b42f0a79f6b",
+      "retrieved_at_utc": "2026-10-12T03:14:14.497574+00:00",
+      "official_sha256": "2f98c94c51808ec73980469c4f888b42773078f8db22dd47f4056b42f0a79f6b",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_29_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_29_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_29_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "05d6eb6ad74bfde8af0bfffba3f0c81b5e5139589d376a693cb434fdc508250a",
+      "retrieved_at_utc": "2026-10-12T03:14:25.344916+00:00",
+      "official_sha256": "05d6eb6ad74bfde8af0bfffba3f0c81b5e5139589d376a693cb434fdc508250a",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_29_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_29_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_29_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1819,
+      "sha256": "b487055d0d089ae57a24821df3665683021a8437af6c3a78d888efff632d6da0",
+      "retrieved_at_utc": "2026-10-12T03:14:25.374444+00:00",
+      "official_sha256": "b487055d0d089ae57a24821df3665683021a8437af6c3a78d888efff632d6da0",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_30_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_30_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_30_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "a4f6a00823b0053586f2deb91820a34bb06468efba74503b3d20574f2e495f79",
+      "retrieved_at_utc": "2026-10-12T03:14:25.474041+00:00",
+      "official_sha256": "a4f6a00823b0053586f2deb91820a34bb06468efba74503b3d20574f2e495f79",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_30_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_30_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_30_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1801,
+      "sha256": "aadfedbfef61776a64fae6a89a5e788e08928a4040cafae47fb13e4b8672f91e",
+      "retrieved_at_utc": "2026-10-12T03:14:25.692157+00:00",
+      "official_sha256": "aadfedbfef61776a64fae6a89a5e788e08928a4040cafae47fb13e4b8672f91e",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_31_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_31_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_31_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8100,
+      "sha256": "179f04948e1be00583cf6d6c73427bbd05cd23cca9891eb60f72b333e58cd971",
+      "retrieved_at_utc": "2026-10-12T03:14:25.958169+00:00",
+      "official_sha256": "179f04948e1be00583cf6d6c73427bbd05cd23cca9891eb60f72b333e58cd971",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_31_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_31_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_31_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1736,
+      "sha256": "52860719713e260a152984ff5318c14493d268bec19f2b425b1720a669a5cbf8",
+      "retrieved_at_utc": "2026-10-12T03:14:25.962430+00:00",
+      "official_sha256": "52860719713e260a152984ff5318c14493d268bec19f2b425b1720a669a5cbf8",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_32_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_32_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_32_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "1a9bb8fdde296519c2a265a2e73fab2e6b74ad63080960cdf0afbbb5668fd232",
+      "retrieved_at_utc": "2026-10-12T03:14:25.991840+00:00",
+      "official_sha256": "1a9bb8fdde296519c2a265a2e73fab2e6b74ad63080960cdf0afbbb5668fd232",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_32_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_32_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_32_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2351,
+      "sha256": "e44d12f68a1b03c13a518b7f4d7c06e1922cccb2e1faba22c3a8d64566d8ed8b",
+      "retrieved_at_utc": "2026-10-12T03:14:26.263937+00:00",
+      "official_sha256": "e44d12f68a1b03c13a518b7f4d7c06e1922cccb2e1faba22c3a8d64566d8ed8b",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_33_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_33_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_33_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "eb99b7cb224b2dc21931a4dbd358f19adb0507dd263c1bd653c9e4d5a9a45817",
+      "retrieved_at_utc": "2026-10-12T03:14:33.655726+00:00",
+      "official_sha256": "eb99b7cb224b2dc21931a4dbd358f19adb0507dd263c1bd653c9e4d5a9a45817",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_33_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_33_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_33_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1305,
+      "sha256": "b5433da99cc56149afd2b1c5fe7e2e996bad46d4e55a5aba75ed6c7a4f6e9fd8",
+      "retrieved_at_utc": "2026-10-12T03:14:33.795611+00:00",
+      "official_sha256": "b5433da99cc56149afd2b1c5fe7e2e996bad46d4e55a5aba75ed6c7a4f6e9fd8",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_34_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_34_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_34_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8099,
+      "sha256": "3cb5d0c349a1f480069dee797c5f51421c00cbd64ef271a228ab76f368720258",
+      "retrieved_at_utc": "2026-10-12T03:14:33.859717+00:00",
+      "official_sha256": "3cb5d0c349a1f480069dee797c5f51421c00cbd64ef271a228ab76f368720258",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_34_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_34_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_34_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1695,
+      "sha256": "743b5fdb988a7db1163d6031ae5645217dd81481b711657c5f2d6c36fdb4b871",
+      "retrieved_at_utc": "2026-10-12T03:14:33.907363+00:00",
+      "official_sha256": "743b5fdb988a7db1163d6031ae5645217dd81481b711657c5f2d6c36fdb4b871",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_35_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_35_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_35_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8323,
+      "sha256": "8c468f327a2cdc44abdc12bdf8acbe3fc1cea9caeb30d43968e48b62760c7e7d",
+      "retrieved_at_utc": "2026-10-12T03:14:33.907915+00:00",
+      "official_sha256": "8c468f327a2cdc44abdc12bdf8acbe3fc1cea9caeb30d43968e48b62760c7e7d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_35_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_35_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_35_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1712,
+      "sha256": "8812e202d49a41e4ddf89b1f8634428936fee1d594dd23363c026e9209029e9c",
+      "retrieved_at_utc": "2026-10-12T03:14:34.020231+00:00",
+      "official_sha256": "8812e202d49a41e4ddf89b1f8634428936fee1d594dd23363c026e9209029e9c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_36_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_36_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_36_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "7c7b922e9d6067fc673e17625c31b5897aeeef93e993532c31f0006b62115219",
+      "retrieved_at_utc": "2026-10-12T03:14:34.129883+00:00",
+      "official_sha256": "7c7b922e9d6067fc673e17625c31b5897aeeef93e993532c31f0006b62115219",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_36_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_36_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_36_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1786,
+      "sha256": "510e469ba0d132226a5fd0244f5a0ac9141a6e13a33ff8c73ba08be77530bebd",
+      "retrieved_at_utc": "2026-10-12T03:14:34.424822+00:00",
+      "official_sha256": "510e469ba0d132226a5fd0244f5a0ac9141a6e13a33ff8c73ba08be77530bebd",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_37_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_37_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_37_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7874,
+      "sha256": "300fd4400debdf1842adeb51d44d9a253214e5253cbadbf73babf7612d5634d4",
+      "retrieved_at_utc": "2026-10-12T03:14:42.296882+00:00",
+      "official_sha256": "300fd4400debdf1842adeb51d44d9a253214e5253cbadbf73babf7612d5634d4",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_37_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_37_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_37_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1797,
+      "sha256": "b09778166264cdb3a320d5e8cc2b591894b9152fbcc04e1720e78c611c468e19",
+      "retrieved_at_utc": "2026-10-12T03:14:42.368632+00:00",
+      "official_sha256": "b09778166264cdb3a320d5e8cc2b591894b9152fbcc04e1720e78c611c468e19",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_38_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_38_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_38_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7618,
+      "sha256": "7e339a0c54c768da500f34641a650c0124cb920d923f04fb424f9b80b2951078",
+      "retrieved_at_utc": "2026-10-12T03:14:42.638171+00:00",
+      "official_sha256": "7e339a0c54c768da500f34641a650c0124cb920d923f04fb424f9b80b2951078",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_38_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_38_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_38_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1545,
+      "sha256": "f6d36ac15f0aed02a273d3ce452df22a4b10a7157d276d233c9c23163a947f73",
+      "retrieved_at_utc": "2026-10-12T03:14:42.863976+00:00",
+      "official_sha256": "f6d36ac15f0aed02a273d3ce452df22a4b10a7157d276d233c9c23163a947f73",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_39_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_39_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_39_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "52341da9b65964c09acc12fc7230497340aab7bf32564d91b890d48d9ee53b4d",
+      "retrieved_at_utc": "2026-10-12T03:14:42.892923+00:00",
+      "official_sha256": "52341da9b65964c09acc12fc7230497340aab7bf32564d91b890d48d9ee53b4d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_39_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_39_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_39_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1389,
+      "sha256": "04b577564b0fe060d5a6290ee5ead77aa765ef0d6419bdcf1d6a83cb4945b20e",
+      "retrieved_at_utc": "2026-10-12T03:14:43.258004+00:00",
+      "official_sha256": "04b577564b0fe060d5a6290ee5ead77aa765ef0d6419bdcf1d6a83cb4945b20e",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_40_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_40_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_40_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8588,
+      "sha256": "1bb3ae4e61696c243f722def012b1ad89fdf65a19073b1a20611a5e5626cb136",
+      "retrieved_at_utc": "2026-10-12T03:14:43.540644+00:00",
+      "official_sha256": "1bb3ae4e61696c243f722def012b1ad89fdf65a19073b1a20611a5e5626cb136",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_40_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_40_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_40_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1587,
+      "sha256": "9771ef176907635f22e20ff17b76c92c99998e3c9b2a49e75b7d0bda52627f39",
+      "retrieved_at_utc": "2026-10-12T03:14:46.037201+00:00",
+      "official_sha256": "9771ef176907635f22e20ff17b76c92c99998e3c9b2a49e75b7d0bda52627f39",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_41_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_41_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_41_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8100,
+      "sha256": "2933b16b9804b9d021a730a11e197818ef066a4042c85f6f62a08dc7d8d00ad6",
+      "retrieved_at_utc": "2026-10-12T03:14:50.718456+00:00",
+      "official_sha256": "2933b16b9804b9d021a730a11e197818ef066a4042c85f6f62a08dc7d8d00ad6",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_41_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_41_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_41_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1333,
+      "sha256": "da5792fd440e690f4cac742ea29cec39f2ad9738bd4c5fc599225f0c15920a82",
+      "retrieved_at_utc": "2026-10-12T03:14:50.981883+00:00",
+      "official_sha256": "da5792fd440e690f4cac742ea29cec39f2ad9738bd4c5fc599225f0c15920a82",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_42_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_42_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_42_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "7b25f6bce576d13e358ab97adb9a074d9a6aec62f99cb8805b5b6458120a968c",
+      "retrieved_at_utc": "2026-10-12T03:14:51.086894+00:00",
+      "official_sha256": "7b25f6bce576d13e358ab97adb9a074d9a6aec62f99cb8805b5b6458120a968c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_42_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_42_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_42_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1671,
+      "sha256": "ac34c9cce28ec348983d5292524cbeaf40e67e8c7324844fd3b1f9f789deb4da",
+      "retrieved_at_utc": "2026-10-12T03:14:51.110849+00:00",
+      "official_sha256": "ac34c9cce28ec348983d5292524cbeaf40e67e8c7324844fd3b1f9f789deb4da",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_43_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_43_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_43_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "60e50a2511efc98320e072489494cbdfd20f6f46dbf8322f64c1729d1ae645d6",
+      "retrieved_at_utc": "2026-10-12T03:14:51.126768+00:00",
+      "official_sha256": "60e50a2511efc98320e072489494cbdfd20f6f46dbf8322f64c1729d1ae645d6",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_43_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_43_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_43_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1695,
+      "sha256": "9801ec81e9bc1f01cd14e75126335e13917b1a729de737639c9c8abebe479592",
+      "retrieved_at_utc": "2026-10-12T03:14:51.295199+00:00",
+      "official_sha256": "9801ec81e9bc1f01cd14e75126335e13917b1a729de737639c9c8abebe479592",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_44_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_44_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_44_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7643,
+      "sha256": "4338af6b68c4aadb8a950d11fcb96553e14f4fcf8f7294472d0cda7317c2baaa",
+      "retrieved_at_utc": "2026-10-12T03:14:51.448323+00:00",
+      "official_sha256": "4338af6b68c4aadb8a950d11fcb96553e14f4fcf8f7294472d0cda7317c2baaa",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_44_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_44_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_44_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1601,
+      "sha256": "d4f1a314734c3485316866324d2daaa709d43de044c8fff66d786225c2935da3",
+      "retrieved_at_utc": "2026-10-12T03:14:51.792115+00:00",
+      "official_sha256": "d4f1a314734c3485316866324d2daaa709d43de044c8fff66d786225c2935da3",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_45_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_45_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_45_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8099,
+      "sha256": "fadab2c4aba2b6b5bad3baafbfc8c4c0261eb51851d2a7df87964536436d5198",
+      "retrieved_at_utc": "2026-10-12T03:14:56.639454+00:00",
+      "official_sha256": "fadab2c4aba2b6b5bad3baafbfc8c4c0261eb51851d2a7df87964536436d5198",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_45_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_45_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_45_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1557,
+      "sha256": "8eac77db699fadffe6e46a6a15d6fc54043654915caa00fd44ea2c8dd0e8646f",
+      "retrieved_at_utc": "2026-10-12T03:14:56.710616+00:00",
+      "official_sha256": "8eac77db699fadffe6e46a6a15d6fc54043654915caa00fd44ea2c8dd0e8646f",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_46_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_46_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_46_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8580,
+      "sha256": "39cb0e82ce91802867654aaa5d78cf78a56038fd8c7f1824fdc01a79a2fdd633",
+      "retrieved_at_utc": "2026-10-12T03:14:56.843330+00:00",
+      "official_sha256": "39cb0e82ce91802867654aaa5d78cf78a56038fd8c7f1824fdc01a79a2fdd633",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_46_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_46_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_46_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1456,
+      "sha256": "e235842945df87fd63b313b4156723e8803f8c5db97cffc4954cbe577db0f097",
+      "retrieved_at_utc": "2026-10-12T03:14:56.974824+00:00",
+      "official_sha256": "e235842945df87fd63b313b4156723e8803f8c5db97cffc4954cbe577db0f097",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_47_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_47_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_47_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7625,
+      "sha256": "5516d2582992039d501e080428138976b3187cf1ec6e71e3209d9d24df4f3e30",
+      "retrieved_at_utc": "2026-10-12T03:14:57.001621+00:00",
+      "official_sha256": "5516d2582992039d501e080428138976b3187cf1ec6e71e3209d9d24df4f3e30",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_47_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_47_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_47_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2130,
+      "sha256": "9f91286b0c1c499c95dc1beebfbce34d571e4465380b6d043204c681d7a60d96",
+      "retrieved_at_utc": "2026-10-12T03:14:57.004340+00:00",
+      "official_sha256": "9f91286b0c1c499c95dc1beebfbce34d571e4465380b6d043204c681d7a60d96",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_48_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_48_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_48_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8239,
+      "sha256": "3f3adb58676f34650e16382f5041f5e965b8a7dae2ca7a34fcd74bc95a14aacf",
+      "retrieved_at_utc": "2026-10-12T03:14:57.029519+00:00",
+      "official_sha256": "3f3adb58676f34650e16382f5041f5e965b8a7dae2ca7a34fcd74bc95a14aacf",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_48_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_48_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_48_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1710,
+      "sha256": "f2a6a9a95d3a54b9d5c68e13a01793c1a340bbdf192b23a923f9a8a5a39c2708",
+      "retrieved_at_utc": "2026-10-12T03:14:58.474251+00:00",
+      "official_sha256": "f2a6a9a95d3a54b9d5c68e13a01793c1a340bbdf192b23a923f9a8a5a39c2708",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_49_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_49_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_49_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "ff8a9e10d1d5bd359575f84e7165684f8ac13b814d5d4f78c38d061b70ee35f4",
+      "retrieved_at_utc": "2026-10-12T03:15:07.522884+00:00",
+      "official_sha256": "ff8a9e10d1d5bd359575f84e7165684f8ac13b814d5d4f78c38d061b70ee35f4",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_49_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_49_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_49_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1685,
+      "sha256": "79a705f1eff0b0359f530eac75ea5d8ab290588456b507d0137c55351a927918",
+      "retrieved_at_utc": "2026-10-12T03:15:07.537814+00:00",
+      "official_sha256": "79a705f1eff0b0359f530eac75ea5d8ab290588456b507d0137c55351a927918",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_50_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_50_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_50_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7643,
+      "sha256": "e3e42604187f4450e1c230a0c9d9ac5fe0da5b4d8f14262352e166e435dea8cf",
+      "retrieved_at_utc": "2026-10-12T03:15:07.562937+00:00",
+      "official_sha256": "e3e42604187f4450e1c230a0c9d9ac5fe0da5b4d8f14262352e166e435dea8cf",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_50_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_50_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_50_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1437,
+      "sha256": "366ee1ee2ab7feceffe473afd541dbf27ca92c32fa47af59e0b81d7ad6e8de0d",
+      "retrieved_at_utc": "2026-10-12T03:15:07.929941+00:00",
+      "official_sha256": "366ee1ee2ab7feceffe473afd541dbf27ca92c32fa47af59e0b81d7ad6e8de0d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_51_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_51_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_51_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 7619,
+      "sha256": "aa84390a77d24f848a50d25f6e5709b03db940ad81ffecf760251fdc33eec1e9",
+      "retrieved_at_utc": "2026-10-12T03:15:08.124048+00:00",
+      "official_sha256": "aa84390a77d24f848a50d25f6e5709b03db940ad81ffecf760251fdc33eec1e9",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_51_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_51_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_51_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1773,
+      "sha256": "f49666ea0d0ea608e095d62284c3a180caee24eea9c498f293a6374db573a0b4",
+      "retrieved_at_utc": "2026-10-12T03:15:08.248317+00:00",
+      "official_sha256": "f49666ea0d0ea608e095d62284c3a180caee24eea9c498f293a6374db573a0b4",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_52_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_52_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_52_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8580,
+      "sha256": "df0d8e8d99d06b9532f15883b15c0d5330352bb5b0998ec2544b82d9519f9ce6",
+      "retrieved_at_utc": "2026-10-12T03:15:08.334155+00:00",
+      "official_sha256": "df0d8e8d99d06b9532f15883b15c0d5330352bb5b0998ec2544b82d9519f9ce6",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_52_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_52_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_52_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1783,
+      "sha256": "b56a100378a99cee3a26407035b00c9378830424b66997f80afc354ed1df745d",
+      "retrieved_at_utc": "2026-10-12T03:15:08.467231+00:00",
+      "official_sha256": "b56a100378a99cee3a26407035b00c9378830424b66997f80afc354ed1df745d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_53_Numerics.csv",
+      "relative_path": "n2_work/inputs/bidmc_53_Numerics.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_53_Numerics.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 8192,
+      "sha256": "a5b24a09b0deaf5f88d214b5e3d5dfe8624d6641e8d9deeba3fab45fbb9c8eb7",
+      "retrieved_at_utc": "2026-10-12T03:15:16.141231+00:00",
+      "official_sha256": "a5b24a09b0deaf5f88d214b5e3d5dfe8624d6641e8d9deeba3fab45fbb9c8eb7",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_53_Breaths.csv",
+      "relative_path": "n2_work/inputs/bidmc_53_Breaths.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_53_Breaths.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 1871,
+      "sha256": "880d82ff72875696bb84eb0385a38dfbce22ab7231e1340c84cf95feb73c4ea3",
+      "retrieved_at_utc": "2026-10-12T03:15:16.144910+00:00",
+      "official_sha256": "880d82ff72875696bb84eb0385a38dfbce22ab7231e1340c84cf95feb73c4ea3",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_01_Signals.csv",
+      "relative_path": "n2_work/inputs/bidmc_01_Signals.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_01_Signals.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2678552,
+      "sha256": "21495169cc36e82352d8e12cc6430927946d02d240b030715088d02396ea2d5c",
+      "official_sha256": "21495169cc36e82352d8e12cc6430927946d02d240b030715088d02396ea2d5c",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_13_Signals.csv",
+      "relative_path": "n2_work/inputs/bidmc_13_Signals.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_13_Signals.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 2760574,
+      "sha256": "a8edeba2345203812c8983175998c270642b6fa143a46c13d24dc678050cd35d",
+      "official_sha256": "a8edeba2345203812c8983175998c270642b6fa143a46c13d24dc678050cd35d",
+      "official_sha256_match": true
+    },
+    {
+      "file": "bidmc_23_Signals.csv",
+      "relative_path": "n2_work/inputs/bidmc_23_Signals.csv",
+      "url": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_23_Signals.csv",
+      "release": "1.0.0",
+      "retrieval_mode": "cached",
+      "status": "success",
+      "bytes": 3133890,
+      "sha256": "3cedad370183b86759024c4c8c02d317a04fd91291fd5470e8e18268349674a6",
+      "official_sha256": "3cedad370183b86759024c4c8c02d317a04fd91291fd5470e8e18268349674a6",
+      "official_sha256_match": true
+    }
+  ],
+  "summary": {
+    "records_requested": 53,
+    "records_audited": 53,
+    "window_rows": 7950,
+    "resp_window_states": {
+      "complete": 7797,
+      "partial": 153
+    },
+    "record_statuses": {
+      "audited": 53
+    },
+    "resp_nan_total": 153,
+    "both_annotations_potential_windows": 7907,
+    "all_paths_potential_complete_monitor_windows": 7754,
+    "both_annotations_potential_after_sort_dedup_candidate": 7947,
+    "all_paths_potential_complete_monitor_after_sort_dedup_candidate": 7794,
+    "time_bands": {
+      "0-120s": {
+        "windows": 2120,
+        "resp_states": {
+          "complete": 2078,
+          "partial": 42
+        },
+        "ann1_counts": {
+          "two_or_more": 2117,
+          "zero": 2,
+          "one": 1
+        },
+        "ann2_counts": {
+          "two_or_more": 2120
+        }
+      },
+      "120-240s": {
+        "windows": 2120,
+        "resp_states": {
+          "complete": 2080,
+          "partial": 40
+        },
+        "ann1_counts": {
+          "two_or_more": 2120
+        },
+        "ann2_counts": {
+          "two_or_more": 2120
+        }
+      },
+      "240-360s": {
+        "windows": 2120,
+        "resp_states": {
+          "complete": 2091,
+          "partial": 29
+        },
+        "ann1_counts": {
+          "two_or_more": 2120
+        },
+        "ann2_counts": {
+          "two_or_more": 2120
+        }
+      },
+      "360-480s": {
+        "windows": 1590,
+        "resp_states": {
+          "complete": 1548,
+          "partial": 42
+        },
+        "ann1_counts": {
+          "two_or_more": 1590
+        },
+        "ann2_counts": {
+          "two_or_more": 1590
+        }
+      }
+    },
+    "annotation_counts": {
+      "1": {
+        "total_events": 7288,
+        "window_count_categories": {
+          "two_or_more": 7947,
+          "zero": 2,
+          "one": 1
+        },
+        "boundary_membership_changed_windows_under_zero_based": 55
+      },
+      "2": {
+        "total_events": 7381,
+        "window_count_categories": {
+          "two_or_more": 7950
+        },
+        "boundary_membership_changed_windows_under_zero_based": 71
+      }
+    }
+  },
+  "verification": {
+    "exact_53_unique_ids": true,
+    "unique_record_window_ids": true,
+    "synthetic_input_boundary_padding_duplicate_and_missing_run_checks": true,
+    "output_count_consistent": true,
+    "official_RECORDS_matches_01_to_53": true,
+    "per_record_checks": {
+      "01": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "02": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "03": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "04": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "05": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "06": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "07": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "08": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "09": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "10": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "11": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "12": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "13": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "14": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "15": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "16": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "17": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "18": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "19": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "20": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "21": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "22": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "23": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "24": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "25": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "26": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "27": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "28": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "29": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "30": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "31": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "32": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "33": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "34": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "35": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "36": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "37": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "38": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "39": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "40": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "41": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "42": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "43": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "44": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "45": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "46": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "47": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "48": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "49": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "50": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "51": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "52": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      },
+      "53": {
+        "missing_multiplicity_check": true,
+        "event_multiplicity_check": true
+      }
+    },
+    "no_primary_analysis": true,
+    "prohibited_outputs": [
+      "annotation RR",
+      "RR pairwise differences",
+      "2 bpm retained set",
+      "bias",
+      "MAE",
+      "RMSE"
+    ],
+    "independent_review_checks": {
+      "N2_Input_Quality_ByRecord.csv_byte_identical_offline_rerun": true,
+      "N2_Input_Quality_ByWindow.csv_byte_identical_offline_rerun": true,
+      "independent_textual_nan_count_all53": true,
+      "independent_dictionary_slot_coverage_all7950": true,
+      "independent_unique_event_membership_all7950_both_annotators": true
+    },
+    "no_duplicate_content_across53_numerics_files": true,
+    "no_duplicate_content_across53_breaths_files": true,
+    "delivered_script_matches_executed_script": true,
+    "artifact_scope_check": {
+      "csv_columns_include_no_RR_values_or_RR_differences": true,
+      "all_tables_preprotocol_only": true
+    }
+  },
+  "representative_signals": {
+    "01": {
+      "rows": 60001,
+      "columns_raw": [
+        "Time [s]",
+        " RESP",
+        " PLETH",
+        " V",
+        " AVR",
+        " II"
+      ],
+      "time_start_s": 0.0,
+      "time_end_s": 480.0,
+      "time_strictly_increasing": false,
+      "time_nondecreasing": true,
+      "time_duplicate_count": 9500,
+      "max_csv_time_error_vs_row_over_125_s": 0.004000000000019099,
+      "time_matches_one_based_samples_with_csv_rounding": true,
+      "event_examples": [
+        {
+          "annotator": 1,
+          "sample": 189,
+          "csv_row_zero_based": 188,
+          "csv_time_s": 1.504,
+          "one_based_time_s": 1.504,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 1,
+          "sample": 476,
+          "csv_row_zero_based": 475,
+          "csv_time_s": 3.8,
+          "one_based_time_s": 3.8,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 1,
+          "sample": 59426,
+          "csv_row_zero_based": 59425,
+          "csv_time_s": 475.4,
+          "one_based_time_s": 475.4,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 1,
+          "sample": 59809,
+          "csv_row_zero_based": 59808,
+          "csv_time_s": 478.46,
+          "one_based_time_s": 478.464,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 2,
+          "sample": 187,
+          "csv_row_zero_based": 186,
+          "csv_time_s": 1.488,
+          "one_based_time_s": 1.488,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 2,
+          "sample": 472,
+          "csv_row_zero_based": 471,
+          "csv_time_s": 3.768,
+          "one_based_time_s": 3.768,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 2,
+          "sample": 59414,
+          "csv_row_zero_based": 59413,
+          "csv_time_s": 475.3,
+          "one_based_time_s": 475.304,
+          "resp_signal_value": 1.0
+        },
+        {
+          "annotator": 2,
+          "sample": 59809,
+          "csv_row_zero_based": 59808,
+          "csv_time_s": 478.46,
+          "one_based_time_s": 478.464,
+          "resp_signal_value": 1.0
+        }
+      ],
+      "visual_waveform_verification": "not_performed; position/time representative verification only"
+    },
+    "13": {
+      "rows": 60001,
+      "columns_raw": [
+        "Time [s]",
+        " RESP",
+        " PLETH",
+        " II",
+        " V",
+        " AVR"
+      ],
+      "time_start_s": 0.0,
+      "time_end_s": 480.0,
+      "time_strictly_increasing": false,
+      "time_nondecreasing": true,
+      "time_duplicate_count": 9500,
+      "max_csv_time_error_vs_row_over_125_s": 0.004000000000019099,
+      "time_matches_one_based_samples_with_csv_rounding": true,
+      "event_examples": [
+        {
+          "annotator": 1,
+          "sample": 120,
+          "csv_row_zero_based": 119,
+          "csv_time_s": 0.952,
+          "one_based_time_s": 0.952,
+          "resp_signal_value": 0.29521
+        },
+        {
+          "annotator": 1,
+          "sample": 537,
+          "csv_row_zero_based": 536,
+          "csv_time_s": 4.288,
+          "one_based_time_s": 4.288,
+          "resp_signal_value": 0.30499
+        },
+        {
+          "annotator": 1,
+          "sample": 59478,
+          "csv_row_zero_based": 59477,
+          "csv_time_s": 475.82,
+          "one_based_time_s": 475.816,
+          "resp_signal_value": 0.35386
+        },
+        {
+          "annotator": 1,
+          "sample": 59843,
+          "csv_row_zero_based": 59842,
+          "csv_time_s": 478.74,
+          "one_based_time_s": 478.736,
+          "resp_signal_value": 0.37243
+        },
+        {
+          "annotator": 2,
+          "sample": 61,
+          "csv_row_zero_based": 60,
+          "csv_time_s": 0.48,
+          "one_based_time_s": 0.48,
+          "resp_signal_value": 0.35679
+        },
+        {
+          "annotator": 2,
+          "sample": 277,
+          "csv_row_zero_based": 276,
+          "csv_time_s": 2.208,
+          "one_based_time_s": 2.208,
+          "resp_signal_value": 0.29326
+        },
+        {
+          "annotator": 2,
+          "sample": 59419,
+          "csv_row_zero_based": 59418,
+          "csv_time_s": 475.34,
+          "one_based_time_s": 475.344,
+          "resp_signal_value": 0.31378
+        },
+        {
+          "annotator": 2,
+          "sample": 59751,
+          "csv_row_zero_based": 59750,
+          "csv_time_s": 478.0,
+          "one_based_time_s": 478.0,
+          "resp_signal_value": 0.35093
+        }
+      ],
+      "visual_waveform_verification": "not_performed; position/time representative verification only"
+    },
+    "23": {
+      "rows": 60001,
+      "columns_raw": [
+        "Time [s]",
+        " PLETH",
+        " ABP",
+        " RESP",
+        " II",
+        " V",
+        " AVR"
+      ],
+      "time_start_s": 0.0,
+      "time_end_s": 480.0,
+      "time_strictly_increasing": false,
+      "time_nondecreasing": true,
+      "time_duplicate_count": 9500,
+      "max_csv_time_error_vs_row_over_125_s": 0.004000000000019099,
+      "time_matches_one_based_samples_with_csv_rounding": true,
+      "event_examples": [
+        {
+          "annotator": 1,
+          "sample": 224,
+          "csv_row_zero_based": 223,
+          "csv_time_s": 1.784,
+          "one_based_time_s": 1.784,
+          "resp_signal_value": 0.54448
+        },
+        {
+          "annotator": 1,
+          "sample": 520,
+          "csv_row_zero_based": 519,
+          "csv_time_s": 4.152,
+          "one_based_time_s": 4.152,
+          "resp_signal_value": 0.63832
+        },
+        {
+          "annotator": 1,
+          "sample": 59535,
+          "csv_row_zero_based": 59534,
+          "csv_time_s": 476.27,
+          "one_based_time_s": 476.272,
+          "resp_signal_value": 0.87097
+        },
+        {
+          "annotator": 1,
+          "sample": 59952,
+          "csv_row_zero_based": 59951,
+          "csv_time_s": 479.61,
+          "one_based_time_s": 479.608,
+          "resp_signal_value": 0.71163
+        },
+        {
+          "annotator": 2,
+          "sample": 198,
+          "csv_row_zero_based": 197,
+          "csv_time_s": 1.576,
+          "one_based_time_s": 1.576,
+          "resp_signal_value": 0.58749
+        },
+        {
+          "annotator": 2,
+          "sample": 541,
+          "csv_row_zero_based": 540,
+          "csv_time_s": 4.32,
+          "one_based_time_s": 4.32,
+          "resp_signal_value": 0.70186
+        },
+        {
+          "annotator": 2,
+          "sample": 59535,
+          "csv_row_zero_based": 59534,
+          "csv_time_s": 476.27,
+          "one_based_time_s": 476.272,
+          "resp_signal_value": 0.87097
+        },
+        {
+          "annotator": 2,
+          "sample": 59952,
+          "csv_row_zero_based": 59951,
+          "csv_time_s": 479.61,
+          "one_based_time_s": 479.608,
+          "resp_signal_value": 0.71163
+        }
+      ],
+      "visual_waveform_verification": "not_performed; position/time representative verification only"
+    },
+    "wfdb01": {
+      "wfdb_annotations_decoded": 335,
+      "all_emitted_samples_plus_one_in_matching_csv_annotator": true,
+      "first_eight_zero_based_events": [
+        [
+          186,
+          "ann2"
+        ],
+        [
+          188,
+          "ann1"
+        ],
+        [
+          471,
+          "ann2"
+        ],
+        [
+          475,
+          "ann1"
+        ],
+        [
+          736,
+          "ann1"
+        ],
+        [
+          746,
+          "ann2"
+        ],
+        [
+          1036,
+          "ann1"
+        ],
+        [
+          1041,
+          "ann2"
+        ]
+      ],
+      "full_two_annotator_format_equivalence": "not_asserted; coincident timestamp export not audited"
+    }
+  },
+  "output_sha256": {
+    "N2_Input_Quality_ByRecord.csv": "66201d80d9e4274218174243c02c14154b5b0c66abb9545bc1858538016cc62e",
+    "N2_Input_Quality_ByWindow.csv": "24d340487d4e05e4205f98a34a9f95e8777385b1b74821ad953bd411e144feef",
+    "N2_PreProtocol_Assessment_JA.md": "3361ce1a0241f8c3cef09e3938a15ad75ec04cefb12047bda3fc599ceee5b55a",
+    "N2_PreProtocol_Audit.py": "791ae33c36af76d631eb4c523683d80814542f9fba5901f9ebe8aca2992137af"
+  },
+  "source_access_limits": [
+    {
+      "url": "https://ieeexplore.ieee.org/document/7748483/",
+      "status": "not_readable",
+      "reason": "browser verification page; direct HTTP returned zero bytes"
+    },
+    {
+      "url": "https://ora.ox.ac.uk/objects/uuid%3Aea142c22-5cda-42c6-a9c1-7954f508fb28",
+      "status": "not_readable",
+      "reason": "web retrieval HTTP403"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/ielx7/10/7971988/7748483/supp1-2613124.zip",
+      "status": "candidate_endpoint_failed",
+      "reason": "HTTP418; actual supplement URL/file name not established; no content inspected"
+    }
+  ],
+  "source_search_scope": [
+    "author PDF all 10 pages, especially printed p1918 IV-A/B and p1914 supplementary-material notice",
+    "PhysioNet v1.0.0 description README RECORDS CSV and official SHA256SUMS",
+    "author-linked RRest BIDMC importer at pinned Git commit",
+    "RRest related reference-RR functions v1/v3 at pinned Git commit; not proven identical to original experiment",
+    "WFDB MATLAB wrann/rdann source and representative binary bidmc01.breath",
+    "nearest ppg-audit audit.py and paper.tex source review only; code not executed",
+    "targeted source searches for DOI supplementary material and RRest; unrelated returned hits excluded"
+  ],
+  "attached_fixed_sources": [
+    {
+      "filename": "Research_Selection_Assessment_2026-10-10_JA(3).md",
+      "sha256": "942acb35b873ee2c478aeab01d2def9d88bc1985f9e1a8f659fb78748c30f40e",
+      "changed": false
+    },
+    {
+      "filename": "Research_Design_Master(4).txt",
+      "sha256": "2bff1ebba76391d8adce7c1e28268142eda487de7241e9b388144cd52e362739",
+      "changed": false
+    }
+  ],
+  "raw_annotation_anomalies": [
+    {
+      "record_id": "06",
+      "annotator": 1,
+      "csv_data_rows_1based": [
+        131,
+        132
+      ],
+      "samples": [
+        49087,
+        49087
+      ]
+    },
+    {
+      "record_id": "09",
+      "annotator": 2,
+      "csv_data_rows_1based": [
+        120,
+        121
+      ],
+      "samples": [
+        44947,
+        44340
+      ]
+    },
+    {
+      "record_id": "19",
+      "annotator": 2,
+      "csv_data_rows_1based": [
+        61,
+        62
+      ],
+      "samples": [
+        29477,
+        28042
+      ]
+    },
+    {
+      "record_id": "20",
+      "annotator": 1,
+      "csv_data_rows_1based": [
+        41,
+        42
+      ],
+      "samples": [
+        19626,
+        19626
+      ]
+    }
+  ]
+}

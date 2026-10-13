@@ -1,0 +1,58 @@
+{
+  "protocol": "N2 Minimum Research Protocol v1.0 FROZEN 2026-10-12",
+  "stage": "Session 5 ONLY, prespecified 64s / 6s sensitivity; NOT a second primary",
+  "grid": {
+    "width_s": 64,
+    "step_s": 6,
+    "per_record": 70,
+    "last_window": [
+      414,
+      478
+    ]
+  },
+  "counts": {
+    "base_windows": 3710,
+    "monitor_complete": 3625,
+    "ann1_computable": 3710,
+    "ann2_computable": 3710,
+    "both_computable": 3710,
+    "agreement_pass": 3573,
+    "pre_screen_monitor_intersection": 3625,
+    "eligible": 3503,
+    "agreement_fail": 137
+  },
+  "records_with_comparisons": 52,
+  "MAE_window_pooled": 0.7157221283469253,
+  "bias_window_pooled": 0.3264011890001616,
+  "MAE_record_equal_weight": 0.7435104524137743,
+  "zero_states": {
+    "zero_none": {
+      "n": 3503,
+      "MAE": 0.7157221283469253
+    },
+    "zero_partial": {
+      "n": 0,
+      "MAE": null
+    },
+    "zero_all": {
+      "n": 0,
+      "MAE": null
+    }
+  },
+  "synthetic_controls": {
+    "session2": 17,
+    "session3": 10,
+    "sensitivity": 11
+  },
+  "input_hash_verified": 106,
+  "changed_normalization_streams": 4,
+  "python_version": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "script_sha256": "c5fef40fe99cc43732e92260e4e185ed4f9f74f374f5abfda696e35e9c08afda",
+  "session1_verification_sha256": "f4e121abdde3f1574199f12e7c64c600f1d5e6738dfd75bcf885e8e7c9bbee0a",
+  "session2_ledger_sha256": "049cc9be478a3999ef73778ae353d7e76b4f6f6f29ce93410240b22a9d740424",
+  "session3_controls_sha256": "1946d4b1e8f14bfc9eafad43f246f236664fae89f4d5f3e076a39d08ac01f892",
+  "session4_summary_sha256": null,
+  "status": "PASS",
+  "window_csv_sha256": "1283159f8cf05ac5ad4b5db3576e74a4ab0898fac8fb9c9eb948836a0ba30dfc",
+  "record_csv_sha256": "c0630963fc9faf2648439b5563f5dc976668c37f4781b04e74922a9b0ff97766"
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "Session 2 ONLY: annotation normalization and synthetic controls; NO real-data RR computed",
+  "protocol": "N2 Minimum Research Protocol v1.0 FROZEN 2026-10-12",
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "script_sha256": "9a2c360bfbc007644dd30bfe377921f3f303aa8bc08d57cd1c52b58e2c36e9ab",
+  "input_verification_sha256": "f4e121abdde3f1574199f12e7c64c600f1d5e6738dfd75bcf885e8e7c9bbee0a",
+  "raw_csv_hash_verified": 106,
+  "records": 53,
+  "annotator_streams": 106,
+  "normalized_total_event_count": 14667,
+  "synthetic_controls_passed": 17,
+  "normalization_changed_streams": 4,
+  "duplicate_instances_removed": 2,
+  "raw_adjacent_order_inversions": 2,
+  "primary_rr_computed": false,
+  "status": "PASS"
+}

@@ -1,0 +1,51 @@
+{
+  "protocol": "N2 Minimum Research Protocol v1.0 FROZEN",
+  "stage": "Session 6 deterministic replay",
+  "status": "PASS",
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "script3_sha256": "13635ec3e23e1aec0bc941b30aed708cdc3995d87c660273a91963c813e8b41e",
+  "script5_sha256": "c5fef40fe99cc43732e92260e4e185ed4f9f74f374f5abfda696e35e9c08afda",
+  "input_hashes_verified_by_replay": 106,
+  "original_summary_recalculated": {
+    "primary": {
+      "eligible": 7271,
+      "mae": 0.9262714657813655,
+      "bias": 0.2615690629526132
+    },
+    "sensitivity": {
+      "eligible": 3503,
+      "mae": 0.7157221283469253,
+      "bias": 0.3264011890001616
+    }
+  },
+  "replay_comparisons": {
+    "primary_window": {
+      "original_sha256": "a5c982c05e40d801440c372128dc59f0bab4407219956a35b5c8fd16e884a614",
+      "replay_sha256": "a5c982c05e40d801440c372128dc59f0bab4407219956a35b5c8fd16e884a614",
+      "identical": true
+    },
+    "sensitivity_window": {
+      "original_sha256": "1283159f8cf05ac5ad4b5db3576e74a4ab0898fac8fb9c9eb948836a0ba30dfc",
+      "replay_sha256": "1283159f8cf05ac5ad4b5db3576e74a4ab0898fac8fb9c9eb948836a0ba30dfc",
+      "identical": true
+    },
+    "sensitivity_record": {
+      "original_sha256": "c0630963fc9faf2648439b5563f5dc976668c37f4781b04e74922a9b0ff97766",
+      "replay_sha256": "c0630963fc9faf2648439b5563f5dc976668c37f4781b04e74922a9b0ff97766",
+      "identical": true
+    }
+  },
+  "logs": {
+    "primary": {
+      "returncode": 0,
+      "stdout": "SESSION 3: PASS windows= 7950 records=53 input_hashes=106 eligible= 7271\nOutput: C:\\Users\\user\\BIDMC_N2\\N2_Session6_output\\replay_primary",
+      "stderr": ""
+    },
+    "sensitivity": {
+      "returncode": 0,
+      "stdout": "SESSION 5: PASS windows= 3710 records=53 input_hashes=106 eligible= 3503\nMAE= 0.7157221283469253 bias= 0.3264011890001616\nOutput: C:\\Users\\user\\BIDMC_N2\\N2_Session6_output\\replay_sensitivity",
+      "stderr": ""
+    }
+  },
+  "note": "Replay shares same implementation as original; not independent raw-to-RR reimplementation."
+}
